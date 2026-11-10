@@ -254,6 +254,9 @@ a {
   position: relative;
   width: min(320px, 100%);
 }
+.search-field.application-search {
+  width: 100%;
+}
 .search-field > svg {
   position: absolute;
   top: 50%;

@@ -1,21 +1,12 @@
-# GUI — DoRoboty.ai Poster People
+# GUI — DoRoboty.ai · Notes z atramentem
 
-The required visual direction for new and changed screens is the accepted **Poster People** design system. The project instructions are [docs/design-system/README.md](docs/design-system/README.md). Read them before UI work; they define how the standalone reference is adapted to this React/TypeScript/Vite application. The previous theme reference tree and skill requirements have been removed.
+The active direction is **Notes z atramentem**, requested by the user on 2026-11-10. This is the first local iteration; final design-system documentation and publication follow acceptance.
 
-## Read and preview
+- Preserve existing Polish product copy during visual changes. Skill examples demonstrate styling and do not authorize rewriting content.
+- Warm paper `#FAF6EE`, card `#FFFDF8`, shared shaded paper `#E8DDCE` for the listing hero, methodology, persona selection, application forms and account workspaces, ink `#171411`, brown `#71472E`, yellow `#F5CF49`.
+- Locally bundled IBM Plex Serif throughout headings, body copy, jobs, data, navigation and controls; real weights 400/500/600/700 maintain hierarchy. This user-selected extension supersedes the skill’s initial serif/sans split. Black primary actions and outlined secondary actions; yellow for selection and small accents, neutral tags.
+- Compact cards and controls, thin contours and quiet internal separators. Keep the lumberjack in brand modules; data-heavy views give priority to reading.
+- One host foundation in [tokens.css](tokens.css), shared recipes in [notes-ink.css](src/app/notes-ink.css), existing marketplace/record/application compositions, and local assets in src/assets/notes-ink/.
+- Preserve React/Base UI composition, hash routing, local scenario operations, human editing, snapshots and recovery. Inspect desktop/mobile, long titles, missing pay/logo, focus and states; run ./scripts/verify.
 
-1. [Project integration guide](docs/design-system/README.md): authority, React/Base UI mapping, routes/state, assets and completion criteria.
-2. [Host implementation rules](docs/design-system/IMPLEMENTATION.md), [React component catalog](docs/design-system/HOST-COMPONENTS.md), [record/CV APIs](docs/design-system/RECORDS.md), [acceptance checklist](docs/design-system/VERIFICATION.md) and [status/open findings](docs/design-system/STATUS.md): reusable owners, actual contracts, URL/focus rules, breakpoint values and regression scenarios.
-3. [Agent entry point](docs/design-system/agent-kit/design.md): visual hierarchy, composition, exact standalone imports and extension boundaries.
-4. [Component API](docs/design-system/agent-kit/components/API.md) plus relevant [human reference](docs/design-system/agent-kit/reference/components.md): anatomy, variants, states and evidence.
-5. `npm run design-system:dev`: local catalog, full listing and offer on port 8952. `npm run design-system:check` checks the immutable kit. No global skill or extra installation is required.
-
-## Implement in this app
-
-- Preserve the requested scope, React/TypeScript/Vite, hash routes, Base UI's `render` composition, Zod/local data operations and current application workflows.
-- Use local Geist Serif Regular for headings, paper/white/ink/pink roles, source contours and radii, complete title wrapping and responsive listing/offer composition.
-- Adapt host tokens and existing primitives together. Do not paste the kit's global reset or vanilla controllers into React, substitute example data for product state, or create a parallel button/card library.
-- Keep docs/design-system/agent-kit unchanged as the reference; implement product UI in src/ and the host theme layer. Existing token names do not establish an alternative visual target.
-- Compare desktop/mobile evidence; test long content, missing salary/marks, keyboard focus, selection, dialogs and recovery. Run ./scripts/verify and report actual checks. The original kit report does not verify a new React screen.
-
-The running application has a host adaptation; current code still requires comparison with the source on each UI task. Follow the implementation map rather than creating parallel controls. Keep Search outside mobile filters, preserve copied section URLs under HashRouter, manage focus after chip removal, reuse outlined surfaces and compare full action type roles plus one contour. Record actual evidence and partial findings; preserve old audit artifacts in separate task-specific directories.
+See the [iteration record](docs/tasks/notes-ink-iteration-01.md) for scope, assumptions and actual verification. The [Poster People kit](docs/design-system/agent-kit/design.md) is retained as historical evidence, not the current visual target. Existing component/API and behavior guides remain useful; visual values are being revised in this iteration.

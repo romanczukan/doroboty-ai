@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-10",
+  "basis": "Supporting implementation annotations, not the visual evidence or a portable agent kit",
+  "gitHead": "81682a81c186e9065ec8fab4d7bd368556fdfe6a",
+  "uncommitted": true,
+  "files": [
+    {
+      "path": "tokens.css",
+      "sha256": "aafc6b076acfd91c5fdb4fa69e7980af76a9b1f44df77d5a250a2a5dd7d8885d"
+    },
+    {
+      "path": "GUI.md",
+      "sha256": "c2e0d06bf5183d12cb02b2d0f0936ca5c6d2acb0ebfd07815475112279b462f9"
+    },
+    {
+      "path": "src/app/notes-ink.css",
+      "sha256": "6cf0ea62593ba395a3a98ea988f3fb1b85c130dffa704c4633ec3d665e0851bc"
+    },
+    {
+      "path": "src/app/marketplace-components.css",
+      "sha256": "568f6f4f871d52095a45acdf4cee37b805104bba75e6b24b3a6df0dae5fbcdfe"
+    },
+    {
+      "path": "src/app/marketplace.css",
+      "sha256": "d7134b25f2f75f93546daa889f7fe861422887ba8d5374c43f04257272839aff"
+    },
+    {
+      "path": "src/app/marketplace-listing.css",
+      "sha256": "a5a4d1df4aa4bdc41f4e6fddcdbec2a1b4c62bd47742eb9082cc86c5c6af5e01"
+    },
+    {
+      "path": "src/app/marketplace-offer.css",
+      "sha256": "cb69dadc3296a37bafbf5e1aef38019a06114112736122cca17b6cbd6ea00f9c"
+    },
+    {
+      "path": "src/app/workspace.css",
+      "sha256": "01861e80b08b2162b58d87a72c4aaf8f4e1e48a493f209b693a3f281fd79ce64"
+    },
+    {
+      "path": "src/app/records.css",
+      "sha256": "be2eefdb4a45fafec2f7dba884a7e8e9e260efa8aa35c5a4c82939536a50a86d"
+    },
+    {
+      "path": "src/app/application.css",
+      "sha256": "c7baad8294cfdffe549d913fe868550c2d722cc3e8f78baae19bf2cf5b40437e"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "sha256": "2eec1e1f6c716b46785542271ef0e843376def7a43f346b808e0a8041c5eea07"
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "sha256": "0895064a5168af2003f446cdcbfcda5f982b2d08943c63d6f18a21584abea49b"
+    },
+    {
+      "path": "src/components/ui/checkbox.tsx",
+      "sha256": "cbc52eef0a3b87a9fb9ea76cf85ca343cc50c17e4094790b824c31431b1e25a5"
+    },
+    {
+      "path": "src/components/ui/select.tsx",
+      "sha256": "1b71f93a029a5d46377302525c507db2faa4411e0fc9cc4c44fc860a0f8e8177"
+    },
+    {
+      "path": "src/components/record-sheet.tsx",
+      "sha256": "f7c77b275dc84312a7e4c7e878d303815786b7c6004ebd9414a09996ee02a2d6"
+    },
+    {
+      "path": "src/components/responsive-panel.tsx",
+      "sha256": "c6a4930e8e2b5d78475a7bbe320cbf48ea93a70ecd4343e07ff9252dff50523e"
+    },
+    {
+      "path": "src/features/prototype/shell.tsx",
+      "sha256": "3163b8ffc7191c5faa1b94527549d12936387f5f46469d3bbfe3c2e99c4370fc"
+    },
+    {
+      "path": "src/features/prototype/workspace.tsx",
+      "sha256": "b2e178cbcd7cd4578b4274614154eb1782a1df1badb5ed1ca46dfc09198f6b68"
+    },
+    {
+      "path": "src/features/prototype/model.ts",
+      "sha256": "cf1fbd34e79fab610330efb6724779509a8e13100b92243748ee94e68fb8de5f"
+    },
+    {
+      "path": "src/features/prototype/settings.tsx",
+      "sha256": "f87781ee718a22d8f82068bd14160f47d87ef036e60521c4e965000ccd4d96f5"
+    },
+    {
+      "path": "src/features/prototype/candidate-application.tsx",
+      "sha256": "4093f2250903161a920d4f9bc2210b7e2eb20e276d3a3311e47c358174cdcfb7"
+    },
+    {
+      "path": "src/features/prototype/recruiting-application.tsx",
+      "sha256": "38447472f3f9e99d48e7b6f2231316b803db3fee6fa7fe35b834fb3b8876d899"
+    },
+    {
+      "path": "src/features/prototype/cv-attachment.tsx",
+      "sha256": "618275ac12ba8e60ae7d5e6ef368d09e819cc55040da89de7e484bbc2875e37c"
+    },
+    {
+      "path": "src/features/prototype/match-score.tsx",
+      "sha256": "a56c67d1c0fbd24c348f2dc75008b4ee56b8e2fd7fbe8dd6d3b681622367e6ad"
+    },
+    {
+      "path": "src/features/jobs/salary-fact.tsx",
+      "sha256": "b40f824357b8f61d735723790133a2ca30c2a0641989c3a0c10642679e6b5550"
+    },
+    {
+      "path": "src/features/jobs/job-card.tsx",
+      "sha256": "9ebdef63ecaf3eddd3bea53dd67279ee34b9e44c7b0bb34e725ee46fb6b5da4a"
+    },
+    {
+      "path": "src/features/jobs/job-pagination.tsx",
+      "sha256": "5c8d44f44e5d6659cf29dbd2d0bdcb9f36d68efc3023ee68cd166e068beed629"
+    },
+    {
+      "path": "src/features/jobs/filters.ts",
+      "sha256": "99706606c0730ca10643b3c0e5dbac31b7e850f1d0b8ffb497c39f33a7b5860e"
+    },
+    {
+      "path": "src/features/jobs/application-offer-preview.tsx",
+      "sha256": "3a1e4cb32b846d2ce408b6e3042112e9a72e24fb9ec498d9a9139f6d1cce9d28"
+    }
+  ]
+}

@@ -1,0 +1,667 @@
+{
+  "date": "2026-11-10",
+  "families": 30,
+  "sections": 330,
+  "widths": [1440, 390, 320],
+  "localLinks": 89,
+  "anchorLinks": "all resolved",
+  "fontLoaded": true,
+  "search": "match / zero / clear",
+  "keyboard": "index reachable",
+  "offlineFile": true,
+  "errors": [],
+  "axeViolations": 0,
+  "geometry": [
+    {
+      "width": 1440,
+      "page": 1440,
+      "viewport": 1440,
+      "cards": [
+        {
+          "id": "C01",
+          "headings": 11,
+          "width": 1070,
+          "height": 2841.125,
+          "overflow": []
+        },
+        {
+          "id": "C02",
+          "headings": 11,
+          "width": 1070,
+          "height": 2901.71875,
+          "overflow": []
+        },
+        {
+          "id": "C03",
+          "headings": 11,
+          "width": 1070,
+          "height": 2817.328125,
+          "overflow": []
+        },
+        {
+          "id": "C04",
+          "headings": 11,
+          "width": 1070,
+          "height": 2856.921875,
+          "overflow": []
+        },
+        {
+          "id": "C05",
+          "headings": 11,
+          "width": 1070,
+          "height": 2781.734375,
+          "overflow": []
+        },
+        {
+          "id": "C06",
+          "headings": 11,
+          "width": 1070,
+          "height": 2757.9375,
+          "overflow": []
+        },
+        {
+          "id": "C07",
+          "headings": 11,
+          "width": 1070,
+          "height": 2757.9375,
+          "overflow": []
+        },
+        {
+          "id": "C08",
+          "headings": 11,
+          "width": 1070,
+          "height": 2644.546875,
+          "overflow": []
+        },
+        {
+          "id": "C09",
+          "headings": 11,
+          "width": 1070,
+          "height": 2757.9375,
+          "overflow": []
+        },
+        {
+          "id": "C10",
+          "headings": 11,
+          "width": 1070,
+          "height": 2621.75,
+          "overflow": []
+        },
+        {
+          "id": "C11",
+          "headings": 11,
+          "width": 1070,
+          "height": 2781.734375,
+          "overflow": []
+        },
+        {
+          "id": "C12",
+          "headings": 11,
+          "width": 1070,
+          "height": 2576.953125,
+          "overflow": []
+        },
+        {
+          "id": "C13",
+          "headings": 11,
+          "width": 1070,
+          "height": 2621.75,
+          "overflow": []
+        },
+        {
+          "id": "C14",
+          "headings": 11,
+          "width": 1070,
+          "height": 2713.140625,
+          "overflow": []
+        },
+        {
+          "id": "C15",
+          "headings": 11,
+          "width": 1070,
+          "height": 2554.953125,
+          "overflow": []
+        },
+        {
+          "id": "C16",
+          "headings": 11,
+          "width": 1070,
+          "height": 2644.546875,
+          "overflow": []
+        },
+        {
+          "id": "C17",
+          "headings": 11,
+          "width": 1070,
+          "height": 2778.9375,
+          "overflow": []
+        },
+        {
+          "id": "C18",
+          "headings": 11,
+          "width": 1070,
+          "height": 2689.34375,
+          "overflow": []
+        },
+        {
+          "id": "C19",
+          "headings": 11,
+          "width": 1070,
+          "height": 2665.546875,
+          "overflow": []
+        },
+        {
+          "id": "C20",
+          "headings": 11,
+          "width": 1070,
+          "height": 2669.34375,
+          "overflow": []
+        },
+        {
+          "id": "C21",
+          "headings": 11,
+          "width": 1070,
+          "height": 2802.734375,
+          "overflow": []
+        },
+        {
+          "id": "C22",
+          "headings": 11,
+          "width": 1070,
+          "height": 2823.734375,
+          "overflow": []
+        },
+        {
+          "id": "C23",
+          "headings": 11,
+          "width": 1070,
+          "height": 2713.140625,
+          "overflow": []
+        },
+        {
+          "id": "C24",
+          "headings": 11,
+          "width": 1070,
+          "height": 2713.140625,
+          "overflow": []
+        },
+        {
+          "id": "C25",
+          "headings": 11,
+          "width": 1070,
+          "height": 2597.953125,
+          "overflow": []
+        },
+        {
+          "id": "C26",
+          "headings": 11,
+          "width": 1070,
+          "height": 2665.546875,
+          "overflow": []
+        },
+        {
+          "id": "C27",
+          "headings": 11,
+          "width": 1070,
+          "height": 2734.140625,
+          "overflow": []
+        },
+        {
+          "id": "C28",
+          "headings": 11,
+          "width": 1070,
+          "height": 2781.734375,
+          "overflow": []
+        },
+        {
+          "id": "C29",
+          "headings": 11,
+          "width": 1070,
+          "height": 2665.546875,
+          "overflow": []
+        },
+        {
+          "id": "C30",
+          "headings": 11,
+          "width": 1070,
+          "height": 2734.140625,
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "page": 390,
+      "viewport": 390,
+      "cards": [
+        {
+          "id": "C01",
+          "headings": 11,
+          "width": 354,
+          "height": 4561.625,
+          "overflow": []
+        },
+        {
+          "id": "C02",
+          "headings": 11,
+          "width": 354,
+          "height": 4241,
+          "overflow": []
+        },
+        {
+          "id": "C03",
+          "headings": 11,
+          "width": 354,
+          "height": 4043.5,
+          "overflow": []
+        },
+        {
+          "id": "C04",
+          "headings": 11,
+          "width": 354,
+          "height": 4125.890625,
+          "overflow": []
+        },
+        {
+          "id": "C05",
+          "headings": 11,
+          "width": 354,
+          "height": 4016.890625,
+          "overflow": []
+        },
+        {
+          "id": "C06",
+          "headings": 11,
+          "width": 354,
+          "height": 3940.515625,
+          "overflow": []
+        },
+        {
+          "id": "C07",
+          "headings": 11,
+          "width": 354,
+          "height": 4087.09375,
+          "overflow": []
+        },
+        {
+          "id": "C08",
+          "headings": 11,
+          "width": 354,
+          "height": 3787.53125,
+          "overflow": []
+        },
+        {
+          "id": "C09",
+          "headings": 11,
+          "width": 354,
+          "height": 4106.171875,
+          "overflow": []
+        },
+        {
+          "id": "C10",
+          "headings": 11,
+          "width": 354,
+          "height": 3823.328125,
+          "overflow": []
+        },
+        {
+          "id": "C11",
+          "headings": 11,
+          "width": 354,
+          "height": 4200.5625,
+          "overflow": []
+        },
+        {
+          "id": "C12",
+          "headings": 11,
+          "width": 354,
+          "height": 3573.359375,
+          "overflow": []
+        },
+        {
+          "id": "C13",
+          "headings": 11,
+          "width": 354,
+          "height": 3681.546875,
+          "overflow": []
+        },
+        {
+          "id": "C14",
+          "headings": 11,
+          "width": 354,
+          "height": 3832.328125,
+          "overflow": []
+        },
+        {
+          "id": "C15",
+          "headings": 11,
+          "width": 354,
+          "height": 3377.1875,
+          "overflow": []
+        },
+        {
+          "id": "C16",
+          "headings": 11,
+          "width": 354,
+          "height": 3997.5,
+          "overflow": []
+        },
+        {
+          "id": "C17",
+          "headings": 11,
+          "width": 354,
+          "height": 4005.109375,
+          "overflow": []
+        },
+        {
+          "id": "C18",
+          "headings": 11,
+          "width": 354,
+          "height": 3709.546875,
+          "overflow": []
+        },
+        {
+          "id": "C19",
+          "headings": 11,
+          "width": 354,
+          "height": 3566.96875,
+          "overflow": []
+        },
+        {
+          "id": "C20",
+          "headings": 11,
+          "width": 354,
+          "height": 3744.9375,
+          "overflow": []
+        },
+        {
+          "id": "C21",
+          "headings": 11,
+          "width": 354,
+          "height": 4096.296875,
+          "overflow": []
+        },
+        {
+          "id": "C22",
+          "headings": 11,
+          "width": 354,
+          "height": 4264.953125,
+          "overflow": []
+        },
+        {
+          "id": "C23",
+          "headings": 11,
+          "width": 354,
+          "height": 3984.65625,
+          "overflow": []
+        },
+        {
+          "id": "C24",
+          "headings": 11,
+          "width": 354,
+          "height": 3856.125,
+          "overflow": []
+        },
+        {
+          "id": "C25",
+          "headings": 11,
+          "width": 354,
+          "height": 3641.953125,
+          "overflow": []
+        },
+        {
+          "id": "C26",
+          "headings": 11,
+          "width": 354,
+          "height": 3665.953125,
+          "overflow": []
+        },
+        {
+          "id": "C27",
+          "headings": 11,
+          "width": 354,
+          "height": 3944.515625,
+          "overflow": []
+        },
+        {
+          "id": "C28",
+          "headings": 11,
+          "width": 354,
+          "height": 3972.3125,
+          "overflow": []
+        },
+        {
+          "id": "C29",
+          "headings": 11,
+          "width": 354,
+          "height": 3716.75,
+          "overflow": []
+        },
+        {
+          "id": "C30",
+          "headings": 11,
+          "width": 354,
+          "height": 4337.171875,
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "page": 320,
+      "viewport": 320,
+      "cards": [
+        {
+          "id": "C01",
+          "headings": 11,
+          "width": 284,
+          "height": 5018.15625,
+          "overflow": []
+        },
+        {
+          "id": "C02",
+          "headings": 11,
+          "width": 284,
+          "height": 4568.015625,
+          "overflow": []
+        },
+        {
+          "id": "C03",
+          "headings": 11,
+          "width": 284,
+          "height": 4376.453125,
+          "overflow": []
+        },
+        {
+          "id": "C04",
+          "headings": 11,
+          "width": 284,
+          "height": 4550.03125,
+          "overflow": []
+        },
+        {
+          "id": "C05",
+          "headings": 11,
+          "width": 284,
+          "height": 4406.03125,
+          "overflow": []
+        },
+        {
+          "id": "C06",
+          "headings": 11,
+          "width": 284,
+          "height": 4233.875,
+          "overflow": []
+        },
+        {
+          "id": "C07",
+          "headings": 11,
+          "width": 284,
+          "height": 4420.046875,
+          "overflow": []
+        },
+        {
+          "id": "C08",
+          "headings": 11,
+          "width": 284,
+          "height": 4133.078125,
+          "overflow": []
+        },
+        {
+          "id": "C09",
+          "headings": 11,
+          "width": 284,
+          "height": 4414.5,
+          "overflow": []
+        },
+        {
+          "id": "C10",
+          "headings": 11,
+          "width": 284,
+          "height": 4145.078125,
+          "overflow": []
+        },
+        {
+          "id": "C11",
+          "headings": 11,
+          "width": 284,
+          "height": 4520.09375,
+          "overflow": []
+        },
+        {
+          "id": "C12",
+          "headings": 11,
+          "width": 284,
+          "height": 3842.921875,
+          "overflow": []
+        },
+        {
+          "id": "C13",
+          "headings": 11,
+          "width": 284,
+          "height": 3927.3125,
+          "overflow": []
+        },
+        {
+          "id": "C14",
+          "headings": 11,
+          "width": 284,
+          "height": 4145.484375,
+          "overflow": []
+        },
+        {
+          "id": "C15",
+          "headings": 11,
+          "width": 284,
+          "height": 3626.953125,
+          "overflow": []
+        },
+        {
+          "id": "C16",
+          "headings": 11,
+          "width": 284,
+          "height": 4267.0625,
+          "overflow": []
+        },
+        {
+          "id": "C17",
+          "headings": 11,
+          "width": 284,
+          "height": 4394.25,
+          "overflow": []
+        },
+        {
+          "id": "C18",
+          "headings": 11,
+          "width": 284,
+          "height": 4007.5,
+          "overflow": []
+        },
+        {
+          "id": "C19",
+          "headings": 11,
+          "width": 284,
+          "height": 3880.125,
+          "overflow": []
+        },
+        {
+          "id": "C20",
+          "headings": 11,
+          "width": 284,
+          "height": 4070.6875,
+          "overflow": []
+        },
+        {
+          "id": "C21",
+          "headings": 11,
+          "width": 284,
+          "height": 4385.65625,
+          "overflow": []
+        },
+        {
+          "id": "C22",
+          "headings": 11,
+          "width": 284,
+          "height": 4556.859375,
+          "overflow": []
+        },
+        {
+          "id": "C23",
+          "headings": 11,
+          "width": 284,
+          "height": 4340.46875,
+          "overflow": []
+        },
+        {
+          "id": "C24",
+          "headings": 11,
+          "width": 284,
+          "height": 4158.078125,
+          "overflow": []
+        },
+        {
+          "id": "C25",
+          "headings": 11,
+          "width": 284,
+          "height": 3903.515625,
+          "overflow": []
+        },
+        {
+          "id": "C26",
+          "headings": 11,
+          "width": 284,
+          "height": 4011.5,
+          "overflow": []
+        },
+        {
+          "id": "C27",
+          "headings": 11,
+          "width": 284,
+          "height": 4273.46875,
+          "overflow": []
+        },
+        {
+          "id": "C28",
+          "headings": 11,
+          "width": 284,
+          "height": 4349.140625,
+          "overflow": []
+        },
+        {
+          "id": "C29",
+          "headings": 11,
+          "width": 284,
+          "height": 4049.703125,
+          "overflow": []
+        },
+        {
+          "id": "C30",
+          "headings": 11,
+          "width": 284,
+          "height": 4559.0625,
+          "overflow": []
+        }
+      ]
+    }
+  ]
+}

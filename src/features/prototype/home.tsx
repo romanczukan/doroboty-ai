@@ -7,7 +7,7 @@ import { usePrototype } from "./store";
 import { publishedJobs } from "./model";
 import { cn } from "@/lib/utils";
 
-import peopleArt from "../../../docs/design-system/agent-kit/assets/people.png";
+import { NotesMascot } from "@/components/notes-mascot";
 
 const categories = [
   {
@@ -36,7 +36,7 @@ export default function HomePage() {
       <section className="home-intro bg-muted/25 shadow-[var(--gui-divider-bottom-shadow)]">
         <div className="mx-auto grid max-w-[1360px] gap-12 px-5 py-16 lg:grid-cols-[1.3fr_0.7fr] lg:px-8 lg:py-24">
           <div>
-            <Badge variant="secondary" className="px-3 py-1 text-xs">
+            <Badge variant="secondary" className="notes-eyebrow px-3 py-1 text-xs">
               Dobra robota. Z AI w środku.
             </Badge>
             <h1 className="mt-6 max-w-4xl text-5xl leading-[var(--gui-leading-xxl)] font-semibold tracking-[var(--gui-tracking-xs)] sm:text-6xl lg:text-7xl">
@@ -58,7 +58,7 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <img className="people-art" src={peopleArt} alt="Dwie osoby pracujące razem z laptopem" />
+          <NotesMascot className="people-art" />
         </div>
       </section>
 

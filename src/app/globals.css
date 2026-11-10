@@ -3,11 +3,43 @@
 @import "shadcn/tailwind.css";
 @import "../../tokens.css";
 @import "./workspace.css";
-@import "./poster-people.css";
+@import "./notes-ink.css";
 @import "./marketplace.css";
 @import "./records.css";
 @import "./application.css";
 @import "./interactions.css";
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./fonts/IBMPlexSerif-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./fonts/IBMPlexSerif-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./fonts/IBMPlexSerif-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./fonts/IBMPlexSerif-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -122,15 +154,4 @@
       "STYL" 0,
       "ital" 0;
   }
-}
-
-@font-face {
-  font-family: "Geist Serif";
-  src: url("../../docs/design-system/agent-kit/assets/fonts/GeistSerif-Regular.woff2")
-    format("woff2");
-  font-weight: 400;
-  font-display: swap;
-}
-:root {
-  --font-timeless: "Timeless Grotesk", sans-serif;
 }

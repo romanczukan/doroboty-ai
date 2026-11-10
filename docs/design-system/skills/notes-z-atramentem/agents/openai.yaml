@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notes z atramentem"
+  short_description: "Jasny portal IT ze szkicowym drwalem"
+  default_prompt: "Użyj $notes-z-atramentem, aby zaprojektować lub rozwinąć ekran portalu pracy IT w zapisanym kierunku."

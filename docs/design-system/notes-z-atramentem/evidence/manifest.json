@@ -1,0 +1,5338 @@
+{
+  "version": "v1",
+  "date": "2026-11-10",
+  "mode": "light",
+  "source": "Current local application, isolated synthetic scenarios; CSS motion suppressed for still capture only",
+  "screens": [
+    {
+      "id": "S01",
+      "file": "S01.jpg",
+      "label": "Strona główna · desktop",
+      "url": "/#/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "3958abcc23e853907c376a817d61170166dd141de781df807c9a167af677d549",
+      "imagePixels": {
+        "width": 1280,
+        "height": 2231
+      }
+    },
+    {
+      "id": "S02",
+      "file": "S02.jpg",
+      "label": "Strona główna · mobile",
+      "url": "/#/",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "3a80c6e8c87c33ee914e71904440f00cd7d788934761f74421bbb5cc2ab7f6e4",
+      "imagePixels": {
+        "width": 390,
+        "height": 2978
+      }
+    },
+    {
+      "id": "S03",
+      "file": "S03.jpg",
+      "label": "Listing ofert · desktop",
+      "url": "/#/oferty",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "701cd93e016fc3e0b94aa2d9a0743ff7ec391ad474e31fb11aaf997a9a703336",
+      "imagePixels": {
+        "width": 1280,
+        "height": 2114
+      }
+    },
+    {
+      "id": "S04",
+      "file": "S04.jpg",
+      "label": "Listing ofert · mobile",
+      "url": "/#/oferty",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "e3631bc4cbde71e68082abb6d39dd8678df18e135869f7c20abc7299a2cf907c",
+      "imagePixels": {
+        "width": 390,
+        "height": 2558
+      }
+    },
+    {
+      "id": "S05",
+      "file": "S05.jpg",
+      "label": "Mobilne okno filtrów",
+      "url": "/#/oferty",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": false,
+      "scenario": "Prepared application data",
+      "sha256": "1b15833102f20ebca1c57a4d4e7cac09f7e65720cd3070516cf1fdf9bb2b9ec1",
+      "imagePixels": {
+        "width": 390,
+        "height": 900
+      }
+    },
+    {
+      "id": "S06",
+      "file": "S06.jpg",
+      "label": "Filtry · zaznaczony tryb pracy",
+      "url": "/#/oferty?remote=remote",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": false,
+      "scenario": "Prepared application data",
+      "sha256": "fa5b9c92171c882c0f371a524e67d62ae6caebbf808429c8c56bd06d38d1728e",
+      "imagePixels": {
+        "width": 390,
+        "height": 900
+      }
+    },
+    {
+      "id": "S07",
+      "file": "S07.jpg",
+      "label": "Listing · wybrana kategoria i aktywne kryterium",
+      "url": "/#/oferty?category=build&remote=remote",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "fdebaf9dea0e8cbe08451d5b9e86af24daa33552d17ddd99e88208b4f2fd0fab",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1758
+      }
+    },
+    {
+      "id": "S08",
+      "file": "S08.jpg",
+      "label": "Detal oferty · desktop",
+      "url": "/#/oferty/ai-product-manager",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "30dd3b7b82820461dfa04f9596c41bee0bc134f1587f687793025d33a1e7cf3e",
+      "imagePixels": {
+        "width": 1280,
+        "height": 2972
+      }
+    },
+    {
+      "id": "S09",
+      "file": "S09.jpg",
+      "label": "Detal oferty · mobile",
+      "url": "/#/oferty/ai-product-manager",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "8cb17edb4c969d9fd9235750b4e6fce3e5e17378e633c46beda15a3336c7bd15",
+      "imagePixels": {
+        "width": 390,
+        "height": 4573
+      }
+    },
+    {
+      "id": "S10",
+      "file": "S10.jpg",
+      "label": "Profil firmy",
+      "url": "/#/firmy/brightlabs",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "8c92c34df282a6e6d61d8264b9bf3161df3a7f5608e5a8e80a199d616cf3be78",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1289
+      }
+    },
+    {
+      "id": "S11",
+      "file": "S11.jpg",
+      "label": "Metodologia i jasne karty na beżu",
+      "url": "/#/metodologia",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "672fc1cf5521430dd1c794cffd8bc4398f6ac6105c61e3375315bf5652a85f91",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1240
+      }
+    },
+    {
+      "id": "S12",
+      "file": "S12.jpg",
+      "label": "Wybór persony pracodawcy",
+      "url": "/#/auth/sign-in?audience=employer&next=/app/oferty",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "497eab5a97602373f062407280ec3f7ec720dfc447633998714fb6387d091fad",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S13",
+      "file": "S13.jpg",
+      "label": "Lokalna mapa ofert",
+      "url": "/#/oferty?view=map",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "752393ef1888f4e87864799954856cc346bd31f4c35f4a210a91b596d0b35253",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1758
+      }
+    },
+    {
+      "id": "S14",
+      "file": "S14.jpg",
+      "label": "Brak wyników wyszukiwania",
+      "url": "/#/oferty?query=brak-wynikow-xyz",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "7603ce84d789d0dcac691bace24136149b518be5086b962fb9431082381f4b2a",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1758
+      }
+    },
+    {
+      "id": "S15",
+      "file": "S15.jpg",
+      "label": "Nieznany adres oferty",
+      "url": "/#/oferty/nieistniejaca-oferta",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "94ea4f7f7e1cc4bd6375f927d0ad7c67d53fa6fe206c7938bb9fd55e230b44c4",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S16",
+      "file": "S16.jpg",
+      "label": "Panel konta kandydata",
+      "url": "/#/app",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "fb17bfede17072964ca80ddeb2a6f222b391f92da5ac692a77fe0836d417dc89",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S17",
+      "file": "S17.jpg",
+      "label": "Mobilne menu strefy konta",
+      "url": "/#/app",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": false,
+      "scenario": "Prepared application data",
+      "sha256": "339cb6db5b04df59b49ca75f7355cfb33fbf5b5340af0882978ec0e4e9755665",
+      "imagePixels": {
+        "width": 390,
+        "height": 900
+      }
+    },
+    {
+      "id": "S18",
+      "file": "S18.jpg",
+      "label": "Edycja profilu i pól",
+      "url": "/#/app/profil",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "d7d349543f34451fc52c19b173b97fdb748ff8a9b8bf043ded675bb0d18c705b",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1015
+      }
+    },
+    {
+      "id": "S19",
+      "file": "S19.jpg",
+      "label": "Profil · mobile",
+      "url": "/#/app/profil",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "004e828bce47c771705656c2485dc7f7cd18dc698357a05f7434857194a9a9a6",
+      "imagePixels": {
+        "width": 390,
+        "height": 1066
+      }
+    },
+    {
+      "id": "S20",
+      "file": "S20.jpg",
+      "label": "Pusta lista zapisanych ofert",
+      "url": "/#/app/zapisane",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "d7fa7b2167045277de4825430ba5104e994db6801aed231892bc098fdaca6873",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S21",
+      "file": "S21.jpg",
+      "label": "Zapisana oferta · przycisk wybrany",
+      "url": "/#/oferty",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "2bee1d5603f819c1580c268e1377c98a5d159a61624e64e590ec83ddb7bfa826",
+      "imagePixels": {
+        "width": 1280,
+        "height": 2120
+      }
+    },
+    {
+      "id": "S22",
+      "file": "S22.jpg",
+      "label": "Zapisane oferty",
+      "url": "/#/app/zapisane",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "66b177c68c91a215f1ff98d19b34ac9ed37863c29ca97abe6d9800fc766f4e13",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S23",
+      "file": "S23.jpg",
+      "label": "Moje aplikacje · wyszukiwarka i rekord",
+      "url": "/#/app/aplikacje",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "2b8f262389116db4ad90eba787976c1f2562655796d7676b3eeecde757697ff7",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S24",
+      "file": "S24.jpg",
+      "label": "Moje aplikacje · mobile",
+      "url": "/#/app/aplikacje",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "e4ae5cdc9cb983f3a2472aec8db5677953c6d65c9ad04eb58eb04a2a10d19e14",
+      "imagePixels": {
+        "width": 390,
+        "height": 900
+      }
+    },
+    {
+      "id": "S25",
+      "file": "S25.jpg",
+      "label": "Wysłana aplikacja kandydata",
+      "url": "/#/app/aplikacje/application-example",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "9acc3fa6b5ab6015df4383fdf36701bb1455fe9ff0651fd14016ac404da837ad",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S26",
+      "file": "S26.jpg",
+      "label": "Zakładka CV i lokalny podgląd",
+      "url": "/#/app/aplikacje/application-example",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "51cd170b10ad6cb2504e5624de277802919c61675faabe3cace6c006a4063347",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1377
+      }
+    },
+    {
+      "id": "S27",
+      "file": "S27.jpg",
+      "label": "Potwierdzenie wycofania w arkuszu",
+      "url": "/#/app/aplikacje/application-example",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "d89c8f8dc79e8f78f0235cb5b722d43d747ec4d69aef813a9e42976ea76885ba",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1377
+      }
+    },
+    {
+      "id": "S28",
+      "file": "S28.jpg",
+      "label": "Formularz aplikowania",
+      "url": "/#/aplikuj/ai-operations-specialist",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "0d498224d78de8f19e192d5f5bf9f391788811bd0681e4cffac5dcb13eb40d50",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1349
+      }
+    },
+    {
+      "id": "S29",
+      "file": "S29.jpg",
+      "label": "Błąd zbyt krótkiej odpowiedzi",
+      "url": "/#/aplikuj/ai-operations-specialist",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "6927138e764900d4f38cf09fcbfc394fc5a3d8e93c7df212c62605673399cec4",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1422
+      }
+    },
+    {
+      "id": "S30",
+      "file": "S30.jpg",
+      "label": "Potwierdzenie zapisu szkicu",
+      "url": "/#/aplikuj/ai-operations-specialist",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "63a02714285565a67fd863fbb12c80f3f590d209f488b7d6c0d84d4ee174a86f",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1444
+      }
+    },
+    {
+      "id": "S31",
+      "file": "S31.jpg",
+      "label": "Formularz aplikowania · mobile",
+      "url": "/#/aplikuj/ai-operations-specialist",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "a2c6939c2b6fe3c419ec2405d93b732e200b6095536a76f60715bfe94ee8107f",
+      "imagePixels": {
+        "width": 390,
+        "height": 2072
+      }
+    },
+    {
+      "id": "S32",
+      "file": "S32.jpg",
+      "label": "Ustawienia scenariusza",
+      "url": "/#/app/settings",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "c36fb59b1edd32c039b61d40fe5709f94f1d0cf9775ab22a5d1b0013479fbfb2",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S33",
+      "file": "S33.jpg",
+      "label": "Modal potwierdzenia resetu",
+      "url": "/#/app/settings",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": false,
+      "scenario": "Prepared application data",
+      "sha256": "62de5861c1edd628a7c3e7a27281e143321166b1b0226a18c34a3e9961afcc03",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S34",
+      "file": "S34.jpg",
+      "label": "Przypadek brzegowy: długi tytuł i brak płacy",
+      "url": "/#/oferty",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Isolated synthetic content variant, not canonical fixture text",
+      "sha256": "9796cb0367609fa27d66d2c525d878be4c935d2afab33453d8f6e68ba9d2ab32",
+      "imagePixels": {
+        "width": 1280,
+        "height": 2153
+      }
+    },
+    {
+      "id": "S35",
+      "file": "S35.jpg",
+      "label": "Przypadek brzegowy · mobile",
+      "url": "/#/oferty",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Isolated synthetic content variant",
+      "sha256": "75a32d3c4fc41f55cb55460d6ca29b7a81a0adf134c58e08b391e0a973c2d34c",
+      "imagePixels": {
+        "width": 390,
+        "height": 2631
+      }
+    },
+    {
+      "id": "S36",
+      "file": "S36.jpg",
+      "label": "Paginacja przy większej liczbie ofert",
+      "url": "/#/oferty",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Isolated synthetic dataset: 27 published jobs",
+      "sha256": "e59b2e3c46271bfee036548178c800f3e1a2321d24a137a4e565c972e7acaf3e",
+      "imagePixels": {
+        "width": 1280,
+        "height": 4829
+      }
+    },
+    {
+      "id": "S37",
+      "file": "S37.jpg",
+      "label": "Lista kandydatów rekrutera",
+      "url": "/#/app/kandydaci",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "d32468273ea0801639822eeb60c874ae918fb808c112db619ba061e2dc4d3de8",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S38",
+      "file": "S38.jpg",
+      "label": "Arkusz rekrutera · odpowiedź, notatka, etapy",
+      "url": "/#/app/kandydaci/application-example",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "d1daddca78b748510c3fc1eca5efa45a293c1d051e28d6cf8305cb0aa9778894",
+      "imagePixels": {
+        "width": 1280,
+        "height": 987
+      }
+    },
+    {
+      "id": "S39",
+      "file": "S39.jpg",
+      "label": "Historia po zmianie etapu",
+      "url": "/#/app/kandydaci/application-example",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "a34d0b0240a70d496932064c4e057a0bed291fd8d2c15025173bb7ea5618921f",
+      "imagePixels": {
+        "width": 1280,
+        "height": 987
+      }
+    },
+    {
+      "id": "S40",
+      "file": "S40.jpg",
+      "label": "Arkusz rekrutera · mobile",
+      "url": "/#/app/kandydaci/application-example",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "a2feeb610c4c6990f2534b00623e66b85f0f72e9de83d84ad7d8af1cd8e08a44",
+      "imagePixels": {
+        "width": 390,
+        "height": 1560
+      }
+    },
+    {
+      "id": "S41",
+      "file": "S41.jpg",
+      "label": "Edytor oferty · formularz pracodawcy",
+      "url": "/#/app/oferty/nowa",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "ee02f751050d10817fcdb691753f68c8591425a265b391d87f10716e8446fed9",
+      "imagePixels": {
+        "width": 1280,
+        "height": 1435
+      }
+    },
+    {
+      "id": "S42",
+      "file": "S42.jpg",
+      "label": "Lista kategorii otwarta · kontekst formularza",
+      "url": "/#/app/oferty/nowa",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": false,
+      "scenario": "Prepared employer form; trigger scrolled into view before popup capture",
+      "sha256": "2ca95f81749a6a8ba77f3ac1e59a436b3c0af6df7791e2a3430fc44e40da5e0a",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S43",
+      "file": "S43.jpg",
+      "label": "Formularz organizacji",
+      "url": "/#/app/organizacja",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "83cc0531ebb19f0894f4f4ffe7af2cd0518bf8f60cc2a533a150743b659e41fc",
+      "imagePixels": {
+        "width": 1280,
+        "height": 900
+      }
+    },
+    {
+      "id": "S44",
+      "file": "S44.jpg",
+      "label": "Odzyskiwanie nieczytelnego zapisu",
+      "url": "/#/app/settings",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": true,
+      "scenario": "Prepared application data",
+      "sha256": "e507b586c87a23be35c7de255fa15e510704736256dd533ea02ddf730f0ea2cd",
+      "imagePixels": {
+        "width": 1280,
+        "height": 985
+      }
+    }
+  ],
+  "crops": [
+    {
+      "id": "E01",
+      "file": "E01.jpg",
+      "label": "Akcja główna",
+      "selector": "a[href=\"#/oferty\"].group\\/button",
+      "screen": "S01",
+      "sha256": "804484904e617a4c3fff1f3db3966f10678204b03abd71c674bd40c146de9e88",
+      "imagePixels": {
+        "width": 200,
+        "height": 57
+      }
+    },
+    {
+      "id": "E02",
+      "file": "E02.jpg",
+      "label": "Panel kategorii na stronie głównej",
+      "selector": ".prototype-panel",
+      "screen": "S01",
+      "sha256": "a7c9b12eb9b7035a13aeb302ffc37800b6004123fdb519d8f8e1417b49a43017",
+      "imagePixels": {
+        "width": 392,
+        "height": 209
+      }
+    },
+    {
+      "id": "E03",
+      "file": "E03.jpg",
+      "label": "Marka i nawigacja publiczna",
+      "selector": "header",
+      "screen": "S01",
+      "sha256": "5c7e1e42419b27ab39dca1bd56dd0309eeb734df0433baab3e0319d71e14a3d0",
+      "imagePixels": {
+        "width": 1280,
+        "height": 76
+      }
+    },
+    {
+      "id": "E04",
+      "file": "E04.jpg",
+      "label": "Stopka",
+      "selector": "footer",
+      "screen": "S01",
+      "sha256": "f924827cb2b6a70b689a1341dd2cc8260aea7f10d0a4b7a71be64d29b1ba53ca",
+      "imagePixels": {
+        "width": 1280,
+        "height": 219
+      }
+    },
+    {
+      "id": "E05",
+      "file": "E05.jpg",
+      "label": "Karta oferty",
+      "selector": ".pp-job-card",
+      "screen": "S03",
+      "sha256": "ac0ddc332fdfef64d9e240eb81e3c8ff7c65c45555e2333f02cbb44eec53c9e2",
+      "imagePixels": {
+        "width": 923,
+        "height": 177
+      }
+    },
+    {
+      "id": "E06",
+      "file": "E06.jpg",
+      "label": "Wyszukiwarka i lokalizacja",
+      "selector": ".pp-search-form",
+      "screen": "S03",
+      "sha256": "9a29f1c974aaec26b00fe23a525ee736ec7e2b1b0207e4b8804eedb8c5509457",
+      "imagePixels": {
+        "width": 1200,
+        "height": 68
+      }
+    },
+    {
+      "id": "E07",
+      "file": "E07.jpg",
+      "label": "Kategorie i liczby",
+      "selector": ".pp-category-tabs",
+      "screen": "S03",
+      "sha256": "d1324737cf1c1101caaed6f6205d11f31a893b267b03c1a37733bba5fa3c2bb1",
+      "imagePixels": {
+        "width": 1200,
+        "height": 83
+      }
+    },
+    {
+      "id": "E08",
+      "file": "E08.jpg",
+      "label": "Panel filtrów",
+      "selector": ".pp-filter-panel",
+      "screen": "S03",
+      "sha256": "10425a34f94bfa01abebea41680f482f6e21f4d92004220fe06f26a9186db97f",
+      "imagePixels": {
+        "width": 245,
+        "height": 880
+      }
+    },
+    {
+      "id": "E09",
+      "file": "E09.jpg",
+      "label": "Nagłówek marki z drwalem",
+      "selector": ".pp-intro-grid",
+      "screen": "S03",
+      "sha256": "49ba258101eb0e026fbaf1469c467bb5a252454e9c865564106641fca5e6061e",
+      "imagePixels": {
+        "width": 1200,
+        "height": 340
+      }
+    },
+    {
+      "id": "E10",
+      "file": "E10.jpg",
+      "label": "Aktywne kryteria i czyszczenie",
+      "selector": ".pp-active-filters",
+      "screen": "S07",
+      "sha256": "0beaef7bde03b97a9e7cc84b68672b8b49aac0a60cc90352e5260220cbe2aeea",
+      "imagePixels": {
+        "width": 923,
+        "height": 32
+      }
+    },
+    {
+      "id": "E11",
+      "file": "E11.jpg",
+      "label": "Warunki i akcje oferty",
+      "selector": ".pp-offer-action-card",
+      "screen": "S08",
+      "sha256": "89347ca0280e9a156e916784c39f882df6e820b8cd5975e37ecf31ccd0ee0cf6",
+      "imagePixels": {
+        "width": 350,
+        "height": 442
+      }
+    },
+    {
+      "id": "E12",
+      "file": "E12.jpg",
+      "label": "Tożsamość firmy i warunki roli",
+      "selector": ".pp-offer-hero",
+      "screen": "S08",
+      "sha256": "5fdf731b77fba8f04173eccc621c573166fab026267de5d5e67d5e1df0ec23d7",
+      "imagePixels": {
+        "width": 822,
+        "height": 338
+      }
+    },
+    {
+      "id": "E13",
+      "file": "E13.jpg",
+      "label": "Sekcja długiego opisu",
+      "selector": ".pp-offer-reading",
+      "screen": "S08",
+      "sha256": "480d6a335d6c9ae9894947914940f33174e81cbbbd104fa175057add7d2549c5",
+      "imagePixels": {
+        "width": 820,
+        "height": 1116
+      }
+    },
+    {
+      "id": "E14",
+      "file": "E14.jpg",
+      "label": "Karta wyboru persony",
+      "selector": ".prototype-panel",
+      "screen": "S12",
+      "sha256": "3c67c34924096f50a881821a14c9030b473fa934960f92cb600043ec3fccbe8b",
+      "imagePixels": {
+        "width": 614,
+        "height": 189
+      }
+    },
+    {
+      "id": "E15",
+      "file": "E15.jpg",
+      "label": "Mapa i znacznik",
+      "selector": ".prototype-map",
+      "screen": "S13",
+      "sha256": "819819907e4e2a9e016c25de46f12d640b8b81ef2a9e587c2552e7fdc2ba6871",
+      "imagePixels": {
+        "width": 534,
+        "height": 463
+      }
+    },
+    {
+      "id": "E16",
+      "file": "E16.jpg",
+      "label": "Pusty wynik i akcja odzyskania",
+      "selector": ".pp-empty-state",
+      "screen": "S14",
+      "sha256": "a10e9d6c848460125c311905f3df0d1291202164341349043c601fc71fc3124b",
+      "imagePixels": {
+        "width": 923,
+        "height": 346
+      }
+    },
+    {
+      "id": "E17",
+      "file": "E17.jpg",
+      "label": "Metryka w panelu",
+      "selector": ".prototype-panel",
+      "screen": "S16",
+      "sha256": "dec116bdd08ef63e1ae276b0a755da5585e6728a775800b2fdb455880eb0bc46",
+      "imagePixels": {
+        "width": 306,
+        "height": 125
+      }
+    },
+    {
+      "id": "E18",
+      "file": "E18.jpg",
+      "label": "Nawigacja boczna",
+      "selector": ".sidebar",
+      "screen": "S16",
+      "sha256": "8160fe82451daf9f446b095ef7fb4da82400583b57341847de3f6220b8fa9455",
+      "imagePixels": {
+        "width": 244,
+        "height": 900
+      }
+    },
+    {
+      "id": "E19",
+      "file": "E19.jpg",
+      "label": "Etykieta i pole formularza",
+      "selector": ".field",
+      "screen": "S18",
+      "sha256": "0ff5501426df3535780776df4a13d8565c3dc3d5071b63cd6c2fef990d82a7d2",
+      "imagePixels": {
+        "width": 792,
+        "height": 81
+      }
+    },
+    {
+      "id": "E20",
+      "file": "E20.jpg",
+      "label": "Wyszukiwarka aplikacji z lupką",
+      "selector": ".field",
+      "screen": "S23",
+      "sha256": "13b83e3a7c5cab77df8b08724632888d1acb948e0df8dd6881c8ba4da6f79f5a",
+      "imagePixels": {
+        "width": 956,
+        "height": 81
+      }
+    },
+    {
+      "id": "E21",
+      "file": "E21.jpg",
+      "label": "Rekord kandydata na liście",
+      "selector": ".prototype-panel",
+      "screen": "S23",
+      "sha256": "b613adf5e09402d12882fdc378a2367ced15ac2173e203faaffba9d4c4eb9ae7",
+      "imagePixels": {
+        "width": 956,
+        "height": 149
+      }
+    },
+    {
+      "id": "E22",
+      "file": "E22.jpg",
+      "label": "Wyszukiwarka · focus",
+      "selector": ".field",
+      "screen": "S23",
+      "stateNote": "Focus pola w kolejnym stanie scenariusza S23; nie jest wycinkiem piksel w piksel z pliku S23.",
+      "sha256": "74ac555fce685caac048337e05d74b5e30f028a2c7afafc4d860656c7c0fb069",
+      "imagePixels": {
+        "width": 956,
+        "height": 81
+      }
+    },
+    {
+      "id": "E23",
+      "file": "E23.jpg",
+      "label": "Arkusz odpowiedzi i zakładki",
+      "selector": ".record-sheet",
+      "screen": "S25",
+      "sha256": "53abc8c0c054bc91e5c4049f6359148d58640ce9cb560493e2bd6f431eafa097",
+      "imagePixels": {
+        "width": 711,
+        "height": 417
+      }
+    },
+    {
+      "id": "E24",
+      "file": "E24.jpg",
+      "label": "Etap i Match Score",
+      "selector": ".record-meta",
+      "screen": "S25",
+      "sha256": "d49cfd06fca539ac859f213774899cb8255ef5846e115708f96451c1b11372f6",
+      "imagePixels": {
+        "width": 956,
+        "height": 29
+      }
+    },
+    {
+      "id": "E25",
+      "file": "E25.jpg",
+      "label": "Historia procesu",
+      "selector": ".recruiting-margin",
+      "screen": "S25",
+      "sha256": "76b558f33cd1c0e830ccadaee7ccdfe13f025d8a52efeb3a65fe279e57218e10",
+      "imagePixels": {
+        "width": 214,
+        "height": 339
+      }
+    },
+    {
+      "id": "E26",
+      "file": "E26.jpg",
+      "label": "Załącznik CV i akcje",
+      "selector": ".cv-file-row",
+      "screen": "S26",
+      "sha256": "fff8dad4504f2990e6f32fa8156bc240c791682cae94bdfe42d6b42c538c23bc",
+      "imagePixels": {
+        "width": 653,
+        "height": 46
+      }
+    },
+    {
+      "id": "E27",
+      "file": "E27.jpg",
+      "label": "Potwierdzenie inline",
+      "selector": ".record-withdrawal",
+      "screen": "S27",
+      "sha256": "5e8d7ca5088eee4251cc4d4371705a240499fe86c7124ed990a36e23fc91471e",
+      "imagePixels": {
+        "width": 653,
+        "height": 84
+      }
+    },
+    {
+      "id": "E28",
+      "file": "E28.jpg",
+      "label": "Kontekst oferty i rozwijany opis",
+      "selector": ".application-offer",
+      "screen": "S28",
+      "sha256": "5db8505e77ad754c34b9a83defedbd5001bb0ec24fe1442d6799e24f04a11bd7",
+      "imagePixels": {
+        "width": 424,
+        "height": 585
+      }
+    },
+    {
+      "id": "E29",
+      "file": "E29.jpg",
+      "label": "CV, odpowiedź i zgoda",
+      "selector": ".application-form",
+      "screen": "S28",
+      "sha256": "cefa1e608418b8cf5679d6b21629a3d90077aa5f58e5141e08223d4b33d9e2d6",
+      "imagePixels": {
+        "width": 749,
+        "height": 774
+      }
+    },
+    {
+      "id": "E30",
+      "file": "E30.jpg",
+      "label": "Pomoc i walidacja odpowiedzi",
+      "selector": ".application-answer",
+      "screen": "S29",
+      "sha256": "5fc750ebc48129bf19b1cf6d9a9c4bad83a6b01fcdc3c5d242890853d98885ac",
+      "imagePixels": {
+        "width": 691,
+        "height": 316
+      }
+    },
+    {
+      "id": "E31",
+      "file": "E31.jpg",
+      "label": "Zaznaczona zgoda i akcje",
+      "selector": ".application-submit",
+      "screen": "S30",
+      "stateNote": "Po kadrze S30 zaznaczono zgodę; wycinek pokazuje kolejny stan tego scenariusza.",
+      "sha256": "b8ac1531ce0e0b93d4d6cb21c3d7d9eabb4f0f3fe9ac11a21721f8540ecf615e",
+      "imagePixels": {
+        "width": 691,
+        "height": 205
+      }
+    },
+    {
+      "id": "E32",
+      "file": "E32.jpg",
+      "label": "Alert dialog i akcja destrukcyjna",
+      "selector": "[data-slot=\"alert-dialog-content\"]",
+      "screen": "S33",
+      "sha256": "28ddd00dcfda93d54a0b87c6d5b450297d87b1dbbad8e1a792acdff15ef1d83e",
+      "imagePixels": {
+        "width": 384,
+        "height": 242
+      }
+    },
+    {
+      "id": "E33",
+      "file": "E33.jpg",
+      "label": "Paginacja",
+      "selector": ".pp-pagination",
+      "screen": "S36",
+      "sha256": "189c0fc4249a93b19ece4e09fd9f5cfa13026c0b08fb6d12615eda0bb1850cef",
+      "imagePixels": {
+        "width": 923,
+        "height": 41
+      }
+    },
+    {
+      "id": "E34",
+      "file": "E34.jpg",
+      "label": "Rekord rekrutera",
+      "selector": ".prototype-panel",
+      "screen": "S37",
+      "sha256": "2af5290f103761b4e26c92d4855cd76807fd188de888748bc0dc12c2a011d63d",
+      "imagePixels": {
+        "width": 956,
+        "height": 186
+      }
+    },
+    {
+      "id": "E35",
+      "file": "E35.jpg",
+      "label": "Notatka rekrutacyjna",
+      "selector": ".record-section",
+      "screen": "S38",
+      "sha256": "a53d92b4287b9cbe7f5682a6e58044818ef60f880c3a4800c503eab8b7a6cebd",
+      "imagePixels": {
+        "width": 653,
+        "height": 242
+      }
+    },
+    {
+      "id": "E36",
+      "file": "E36.jpg",
+      "label": "Lista wyboru z zaznaczeniem",
+      "selector": "[role=\"listbox\"]",
+      "screen": "S42",
+      "sha256": "857b9110c611be53279fe3b220499f986d89f7ac78e4bf52db9391e9f8cc12b5",
+      "imagePixels": {
+        "width": 380,
+        "height": 88
+      }
+    },
+    {
+      "id": "E37",
+      "file": "E37.jpg",
+      "label": "Komunikat statusu i odzyskiwanie",
+      "selector": ".prototype-notice",
+      "screen": "S44",
+      "sha256": "04c4f73b6c278f75b676bb9edffd997d8199819c61ee4998cb11a2fefb2e5529",
+      "imagePixels": {
+        "width": 1280,
+        "height": 74
+      }
+    }
+  ],
+  "measurements": [
+    {
+      "screen": "S01",
+      "values": {
+        "card": {
+          "width": 1216,
+          "height": 175.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 880,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 126.03125,
+          "height": 23.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "23.2px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 880,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 880,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 392,
+          "height": 208.4375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S02",
+      "values": {
+        "card": {
+          "width": 350,
+          "height": 254.484375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 270,
+          "height": 23.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "18px",
+          "weight": "700",
+          "line": "23.4px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 128.4375,
+          "height": 21.59375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "21.6px",
+          "tracking": "-0.1px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 270,
+          "height": 18,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 270,
+          "height": 19,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "5px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 350,
+          "height": 192.4375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S03",
+      "values": {
+        "card": {
+          "width": 923,
+          "height": 176.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 587,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 126.03125,
+          "height": 23.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "23.2px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 587,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 587,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 1200,
+          "height": 340,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "20px 0px",
+          "gap": "40px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 860,
+          "height": 103.65625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "51.84px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 312.28125,
+          "height": 56,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "12px 18px",
+          "gap": "20px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 245,
+          "height": 879.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S04",
+      "values": {
+        "card": {
+          "width": 354,
+          "height": 256.890625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 274,
+          "height": 23.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "18px",
+          "weight": "700",
+          "line": "23.4px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 128.4375,
+          "height": 21.59375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "21.6px",
+          "tracking": "-0.1px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 274,
+          "height": 18,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 274,
+          "height": 19,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "5px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 354,
+          "height": 213.96875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "32px 0px 24px",
+          "gap": "0px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 354,
+          "height": 79.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "36px",
+          "weight": "400",
+          "line": "39.6px",
+          "tracking": "-1px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 142.734375,
+          "height": 44,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "11px",
+          "weight": "400",
+          "line": "16.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "10px 12px",
+          "gap": "13px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S05",
+      "values": {
+        "card": {
+          "width": 354,
+          "height": 256.890625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 274,
+          "height": 23.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "18px",
+          "weight": "700",
+          "line": "23.4px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 128.4375,
+          "height": 21.59375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "21.6px",
+          "tracking": "-0.1px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 274,
+          "height": 18,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 274,
+          "height": 19,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "5px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 354,
+          "height": 213.96875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "32px 0px 24px",
+          "gap": "0px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 354,
+          "height": 79.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "36px",
+          "weight": "400",
+          "line": "39.6px",
+          "tracking": "-1px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 142.734375,
+          "height": 44,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "11px",
+          "weight": "400",
+          "line": "16.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "10px 12px",
+          "gap": "13px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 390,
+          "height": 965,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px none rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S06",
+      "values": {
+        "card": {
+          "width": 354,
+          "height": 256.890625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 274,
+          "height": 23.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "18px",
+          "weight": "700",
+          "line": "23.4px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 128.4375,
+          "height": 21.59375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "21.6px",
+          "tracking": "-0.1px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 274,
+          "height": 18,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 274,
+          "height": 19,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "5px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 354,
+          "height": 213.96875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "32px 0px 24px",
+          "gap": "0px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 354,
+          "height": 79.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "36px",
+          "weight": "400",
+          "line": "39.6px",
+          "tracking": "-1px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 142.734375,
+          "height": 44,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "11px",
+          "weight": "400",
+          "line": "16.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "10px 12px",
+          "gap": "13px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 390,
+          "height": 965,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px none rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "chip": {
+          "width": 69.859375,
+          "height": 31,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "10px",
+          "weight": "400",
+          "line": "15px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "5px 7px",
+          "gap": "8px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        }
+      }
+    },
+    {
+      "screen": "S07",
+      "values": {
+        "card": {
+          "width": 923,
+          "height": 176.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 587,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 126.03125,
+          "height": 23.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "23.2px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 587,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 587,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 1200,
+          "height": 340,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "20px 0px",
+          "gap": "40px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 860,
+          "height": 103.65625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "51.84px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 312.28125,
+          "height": 56,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "12px 18px",
+          "gap": "20px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 245,
+          "height": 879.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "chip": {
+          "width": 64.84375,
+          "height": 32,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "11px",
+          "weight": "400",
+          "line": "16.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "5px 8px",
+          "gap": "8px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        }
+      }
+    },
+    {
+      "screen": "S08",
+      "values": {
+        "card": {
+          "width": 1200,
+          "height": 176.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 821,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 183.828125,
+          "height": 34.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "24px",
+          "weight": "600",
+          "line": "34.8px",
+          "tracking": "-0.7px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 821,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 821,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "back": {
+          "width": 108.46875,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "offerTitle": {
+          "width": 748,
+          "height": 35,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "28px",
+          "weight": "700",
+          "line": "35px",
+          "tracking": "-0.5px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "conditions": {
+          "width": 350,
+          "height": 441.984375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "reading": {
+          "width": 820,
+          "height": 1114.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "34px 36px 38px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S09",
+      "values": {
+        "card": {
+          "width": 354,
+          "height": 256.890625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 274,
+          "height": 23.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "18px",
+          "weight": "700",
+          "line": "23.4px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 183.828125,
+          "height": 34.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "24px",
+          "weight": "600",
+          "line": "34.8px",
+          "tracking": "-0.7px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 274,
+          "height": 18,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 274,
+          "height": 19,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "5px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "back": {
+          "width": 102.125,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "offerTitle": {
+          "width": 306,
+          "height": 32.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "26px",
+          "weight": "700",
+          "line": "32.5px",
+          "tracking": "-0.5px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "conditions": {
+          "width": 354,
+          "height": 388.984375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "reading": {
+          "width": 352,
+          "height": 1998.265625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "28px 23px 30px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S10",
+      "values": {
+        "card": {
+          "width": 1216,
+          "height": 175.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 880,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 126.03125,
+          "height": 23.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "23.2px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 880,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 880,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S11",
+      "values": {}
+    },
+    {
+      "screen": "S12",
+      "values": {
+        "panel": {
+          "width": 614,
+          "height": 187.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "persona": {
+          "width": 614,
+          "height": 187.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S13",
+      "values": {
+        "hero": {
+          "width": 1200,
+          "height": 340,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "20px 0px",
+          "gap": "40px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 860,
+          "height": 103.65625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "51.84px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 312.28125,
+          "height": 56,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "12px 18px",
+          "gap": "20px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 245,
+          "height": 879.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "panel": {
+          "width": 373.484375,
+          "height": 462.375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S14",
+      "values": {
+        "hero": {
+          "width": 1200,
+          "height": 340,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "20px 0px",
+          "gap": "40px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 860,
+          "height": 103.65625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "51.84px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 312.28125,
+          "height": 56,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "12px 18px",
+          "gap": "20px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 245,
+          "height": 879.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "chip": {
+          "width": 133.46875,
+          "height": 32,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "11px",
+          "weight": "400",
+          "line": "16.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "5px 8px",
+          "gap": "8px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        }
+      }
+    },
+    {
+      "screen": "S15",
+      "values": {}
+    },
+    {
+      "screen": "S16",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 266.703125,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 305.328125,
+          "height": 124,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "metric": {
+          "width": 305.328125,
+          "height": 124,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S17",
+      "values": {
+        "sidebar": {
+          "width": 390,
+          "height": 319,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "16px 20px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 195.53125,
+          "height": 38.15625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "36px",
+          "weight": "400",
+          "line": "38.16px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 354,
+          "height": 108,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "metric": {
+          "width": 354,
+          "height": 108,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S18",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 227.921875,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 850,
+          "height": 551.5625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "28px",
+          "gap": "16px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S19",
+      "values": {
+        "sidebar": {
+          "width": 0,
+          "height": 0,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 14px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 166.8125,
+          "height": 38.15625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "36px",
+          "weight": "400",
+          "line": "38.16px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 354,
+          "height": 535.5625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "20px",
+          "gap": "16px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S20",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 328.96875,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 956,
+          "height": 133,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S21",
+      "values": {
+        "card": {
+          "width": 923,
+          "height": 177.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(252, 248, 237)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 587,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 126.03125,
+          "height": 23.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "23.2px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 587,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 587,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 1200,
+          "height": 340,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "20px 0px",
+          "gap": "40px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 860,
+          "height": 103.65625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "51.84px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 312.28125,
+          "height": 56,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "12px 18px",
+          "gap": "20px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 245,
+          "height": 879.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S22",
+      "values": {
+        "card": {
+          "width": 956,
+          "height": 176.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 620,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 126.03125,
+          "height": 23.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "23.2px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 620,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 620,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 328.96875,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S23",
+      "values": {
+        "input": {
+          "width": 956,
+          "height": 48,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "0.15px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "12px 12px 12px 34px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "searchIcon": {
+          "width": 16,
+          "height": 16,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "22.4px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 303.78125,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 956,
+          "height": 148,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        }
+      }
+    },
+    {
+      "screen": "S24",
+      "values": {
+        "input": {
+          "width": 354,
+          "height": 48,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "0.15px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "12px 12px 12px 34px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "searchIcon": {
+          "width": 16,
+          "height": 16,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "22.4px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sidebar": {
+          "width": 0,
+          "height": 0,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 14px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 222.578125,
+          "height": 38.15625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "36px",
+          "weight": "400",
+          "line": "38.16px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 354,
+          "height": 174.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        }
+      }
+    },
+    {
+      "screen": "S25",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sheet": {
+          "width": 710.78125,
+          "height": 415.984375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 28px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "tabs": {
+          "width": 104,
+          "height": 46,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "8px 14px 14px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "timeline": {
+          "width": 213.21875,
+          "height": 72,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "stage": {
+          "width": 142.734375,
+          "height": 28.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "22.4px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(251, 239, 189)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "back": {
+          "width": 113.96875,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S26",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sheet": {
+          "width": 710.78125,
+          "height": 1046.984375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 28px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "tabs": {
+          "width": 104,
+          "height": 46,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "8px 14px 14px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "timeline": {
+          "width": 213.21875,
+          "height": 72,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "cv": {
+          "width": 652.78125,
+          "height": 45,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "14px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "stage": {
+          "width": 142.734375,
+          "height": 28.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "22.4px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(251, 239, 189)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "back": {
+          "width": 113.96875,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S27",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sheet": {
+          "width": 710.78125,
+          "height": 1047.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 28px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "tabs": {
+          "width": 104,
+          "height": 46,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "8px 14px 14px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "timeline": {
+          "width": 213.21875,
+          "height": 72,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "cv": {
+          "width": 652.78125,
+          "height": 45,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "14px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "stage": {
+          "width": 142.734375,
+          "height": 28.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "22.4px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(251, 239, 189)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "back": {
+          "width": 113.96875,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S28",
+      "values": {
+        "action": {
+          "width": 161,
+          "height": 48,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(255, 253, 248)",
+          "bg": "rgb(23, 20, 17)",
+          "padding": "12px 24px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "textarea": {
+          "width": 690.09375,
+          "height": 180,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "25.5px",
+          "tracking": "0.15px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "12px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "checkbox": {
+          "width": 26,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "22.1px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(242, 237, 228)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "salary": {
+          "width": 158.515625,
+          "height": 28,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "600",
+          "line": "28px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "sheet": {
+          "width": 423.90625,
+          "height": 584.34375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 28px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "cv": {
+          "width": 690.09375,
+          "height": 42,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "14px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "back": {
+          "width": 115.40625,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S29",
+      "values": {
+        "action": {
+          "width": 161,
+          "height": 48,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(255, 253, 248)",
+          "bg": "rgb(23, 20, 17)",
+          "padding": "12px 24px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "textarea": {
+          "width": 690.09375,
+          "height": 180,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "25.5px",
+          "tracking": "0.15px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(252, 3, 45, 0.2)",
+          "padding": "12px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "checkbox": {
+          "width": 26,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "22.1px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(242, 237, 228)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "salary": {
+          "width": 158.515625,
+          "height": 28,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "600",
+          "line": "28px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "sheet": {
+          "width": 423.90625,
+          "height": 584.34375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 28px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "cv": {
+          "width": 690.09375,
+          "height": 42,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "14px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "back": {
+          "width": 115.40625,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S30",
+      "values": {
+        "action": {
+          "width": 161,
+          "height": 48,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(255, 253, 248)",
+          "bg": "rgb(23, 20, 17)",
+          "padding": "12px 24px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "textarea": {
+          "width": 690.09375,
+          "height": 180,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "25.5px",
+          "tracking": "0.15px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "12px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "checkbox": {
+          "width": 26,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "22.1px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(242, 237, 228)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "salary": {
+          "width": 158.515625,
+          "height": 28,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "600",
+          "line": "28px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "sheet": {
+          "width": 423.90625,
+          "height": 584.34375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 28px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "cv": {
+          "width": 690.09375,
+          "height": 42,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "14px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "back": {
+          "width": 115.40625,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S31",
+      "values": {
+        "action": {
+          "width": 320,
+          "height": 48,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(255, 253, 248)",
+          "bg": "rgb(23, 20, 17)",
+          "padding": "12px 24px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "textarea": {
+          "width": 320,
+          "height": 180,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "25.5px",
+          "tracking": "0.15px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "12px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "checkbox": {
+          "width": 26,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "22.1px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "salary": {
+          "width": 160.921875,
+          "height": 28,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "600",
+          "line": "28px",
+          "tracking": "-0.1px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "sheet": {
+          "width": 354,
+          "height": 566.09375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "16px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "cv": {
+          "width": 320,
+          "height": 94,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "back": {
+          "width": 108.53125,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S32",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 455.4375,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 850,
+          "height": 294.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "28px",
+          "gap": "16px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S33",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 455.4375,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 850,
+          "height": 294.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "28px",
+          "gap": "16px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "dialog": {
+          "width": 384,
+          "height": 240.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "12px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S34",
+      "values": {
+        "card": {
+          "width": 923,
+          "height": 210,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 587,
+          "height": 78,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 126.03125,
+          "height": 23.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "23.2px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 587,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 587,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 1200,
+          "height": 340,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "20px 0px",
+          "gap": "40px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 860,
+          "height": 103.65625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "51.84px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 312.28125,
+          "height": 56,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "12px 18px",
+          "gap": "20px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 245,
+          "height": 879.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S35",
+      "values": {
+        "card": {
+          "width": 354,
+          "height": 330.453125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 274,
+          "height": 116.953125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "18px",
+          "weight": "700",
+          "line": "23.4px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 128.4375,
+          "height": 21.59375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "21.6px",
+          "tracking": "-0.1px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 274,
+          "height": 18,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 274,
+          "height": 19,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "5px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 354,
+          "height": 213.96875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "32px 0px 24px",
+          "gap": "0px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 354,
+          "height": 79.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "36px",
+          "weight": "400",
+          "line": "39.6px",
+          "tracking": "-1px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 142.734375,
+          "height": 44,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "11px",
+          "weight": "400",
+          "line": "16.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "10px 12px",
+          "gap": "13px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S36",
+      "values": {
+        "card": {
+          "width": 923,
+          "height": 177.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "jobTitle": {
+          "width": 587,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "20px",
+          "weight": "700",
+          "line": "26px",
+          "tracking": "-0.3px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "salary": {
+          "width": 126.03125,
+          "height": 23.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "600",
+          "line": "23.2px",
+          "tracking": "-0.25px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "facts": {
+          "width": 587,
+          "height": 19.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "12px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "tags": {
+          "width": 587,
+          "height": 22.5,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "6px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "hero": {
+          "width": 1200,
+          "height": 340,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "20px 0px",
+          "gap": "40px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "heroTitle": {
+          "width": 860,
+          "height": 103.65625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "51.84px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "category": {
+          "width": 312.28125,
+          "height": 56,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(245, 207, 73)",
+          "padding": "12px 18px",
+          "gap": "20px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "filter": {
+          "width": 245,
+          "height": 879.1875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "weight": "400",
+          "line": "24px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S37",
+      "values": {
+        "input": {
+          "width": 956,
+          "height": 48,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "0.15px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "12px 12px 12px 34px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "searchIcon": {
+          "width": 16,
+          "height": 16,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "22.4px",
+          "tracking": "normal",
+          "color": "rgb(102, 90, 80)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 226.3125,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 956,
+          "height": 185,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        }
+      }
+    },
+    {
+      "screen": "S38",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sheet": {
+          "width": 710.78125,
+          "height": 656.96875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 28px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "tabs": {
+          "width": 104,
+          "height": 46,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "8px 14px 14px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "timeline": {
+          "width": 213.21875,
+          "height": 72,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "stage": {
+          "width": 142.734375,
+          "height": 28.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "22.4px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(251, 239, 189)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "back": {
+          "width": 90.953125,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S39",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sheet": {
+          "width": 710.78125,
+          "height": 656.96875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 28px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "tabs": {
+          "width": 104,
+          "height": 46,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "8px 14px 14px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "timeline": {
+          "width": 213.21875,
+          "height": 195.59375,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "stage": {
+          "width": 117.046875,
+          "height": 28.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "400",
+          "line": "22.4px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(251, 239, 189)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "back": {
+          "width": 90.953125,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "19.5px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S40",
+      "values": {
+        "sidebar": {
+          "width": 0,
+          "height": 0,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 14px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "sheet": {
+          "width": 354,
+          "height": 727.46875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "16px",
+          "gap": "normal",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        },
+        "tabs": {
+          "width": 104,
+          "height": 46,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "weight": "600",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "8px 14px 14px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "timeline": {
+          "width": 354,
+          "height": 174.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "score": {
+          "width": 136.015625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "600",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 228, 91)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "stage": {
+          "width": 110.40625,
+          "height": 26.796875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "13px",
+          "weight": "400",
+          "line": "20.8px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(251, 239, 189)",
+          "padding": "3px 12px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "back": {
+          "width": 85.953125,
+          "height": 36,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "12px",
+          "weight": "400",
+          "line": "18px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "9px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S41",
+      "values": {
+        "checkbox": {
+          "width": 26,
+          "height": 26,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(242, 237, 228)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "5px"
+        },
+        "select": {
+          "width": 388,
+          "height": 48,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "0.15px",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "12px",
+          "gap": "8px",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "8px"
+        },
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 255.140625,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        }
+      }
+    },
+    {
+      "screen": "S43",
+      "values": {
+        "sidebar": {
+          "width": 244,
+          "height": 900,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "24px 16px 16px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "pageTitle": {
+          "width": 384.140625,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 850,
+          "height": 397.78125,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "28px",
+          "gap": "16px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    },
+    {
+      "screen": "S44",
+      "values": {
+        "pageTitle": {
+          "width": 455.4375,
+          "height": 50.875,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "48px",
+          "weight": "400",
+          "line": "50.88px",
+          "tracking": "-1.5px",
+          "color": "rgb(113, 71, 46)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(23, 20, 17)",
+          "radius": "0px"
+        },
+        "panel": {
+          "width": 850,
+          "height": 294.390625,
+          "font": "\"IBM Plex Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "15px",
+          "weight": "400",
+          "line": "21px",
+          "tracking": "normal",
+          "color": "rgb(23, 20, 17)",
+          "bg": "rgb(255, 253, 248)",
+          "padding": "28px",
+          "gap": "16px",
+          "border": "1px solid rgb(23, 20, 17)",
+          "radius": "10px"
+        }
+      }
+    }
+  ],
+  "events": [],
+  "historical": [
+    {
+      "id": "U01",
+      "file": "U01.png",
+      "label": "Wycofane copy hero",
+      "source": "User attachment codex-clipboard-c8451f2a-b514-4bb1-8dcb-4c7d8dad18c5.png",
+      "status": "Historical, not current target",
+      "sha256": "58249aeb1c73c76767ebc7f99bc8bea48d0feb35da847873965cee63bef6bb0b",
+      "imagePixels": {
+        "width": 814,
+        "height": 600
+      }
+    },
+    {
+      "id": "U02",
+      "file": "U02.png",
+      "label": "Search bez lupy i placeholdera",
+      "source": "User attachment codex-clipboard-55ada13f-e055-4fb0-bfb1-6ddfad5ce010.png",
+      "status": "Historical defect, superseded by S23 / E20",
+      "sha256": "c9082895859e7193ffd39749ab9ef029dccd7d0f9b7e3d48814cfd861762846c",
+      "imagePixels": {
+        "width": 2228,
+        "height": 1342
+      }
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/fonts/IBMPlexSerif-Bold.woff2",
+      "sha256": "3b9eb99793dd9fed419aaf1af03559ea28bac17b7cb6146e7f8fc3db813621fe"
+    },
+    {
+      "file": "assets/fonts/IBMPlexSerif-Medium.woff2",
+      "sha256": "f66376aeb33a5b32116558e0de53b76b48531f6388e352aeeb35ad82ea05cfaa"
+    },
+    {
+      "file": "assets/fonts/IBMPlexSerif-Regular.woff2",
+      "sha256": "024ebce13cec984b46e350dd85fa7c01105c777e116bfe95f097ad7fa93f39f2"
+    },
+    {
+      "file": "assets/fonts/IBMPlexSerif-SemiBold.woff2",
+      "sha256": "030d808e82f99ebe5c21d50745bd06e5ce16ad9e94b360f5adcc19362beb5344"
+    },
+    {
+      "file": "assets/fonts/LICENSE.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    }
+  ]
+}

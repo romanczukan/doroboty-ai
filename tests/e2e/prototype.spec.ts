@@ -28,7 +28,14 @@ for (const [name, filename] of [
   }) => {
     const external: string[] = [];
     page.on("request", (request) => {
-      if (!request.url().startsWith("http://127.0.0.1:3106")) external.push(request.url());
+      const url = request.url();
+      // Chrome's built-in PDF viewer loads browser-local resources, not network assets.
+      if (
+        !url.startsWith("http://127.0.0.1:3106") &&
+        !url.startsWith("chrome://resources/") &&
+        !url.startsWith("chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/")
+      )
+        external.push(url);
     });
     await choose(page, name);
     await page.goto("/#/app/profil");
@@ -289,7 +296,7 @@ test("mobile navigation, light-only appearance and keyboard person selection", a
   await page.reload();
   await expect(page.getByRole("combobox", { name: "Motyw" })).toHaveCount(0);
   await expect(page.locator("html")).not.toHaveClass(/dark/);
-  await expect(page.locator("body")).toHaveCSS("background-color", "rgb(244, 244, 240)");
+  await expect(page.locator("body")).toHaveCSS("background-color", "rgb(250, 246, 238)");
   await page.screenshot({ path: "artifacts/settings-mobile-light.png", fullPage: true });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
@@ -307,11 +314,11 @@ test("public home and filters reflow at 320px with no external requests", async 
   await page.setViewportSize({ width: 1366, height: 900 });
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toContainText("Praca dla ludzi");
-  await page.screenshot({ path: "artifacts/home-desktop.png", fullPage: true });
+  await page.screenshot({ path: "artifacts/notes-ink-01/home-desktop.png", fullPage: true });
   await page.setViewportSize({ width: 320, height: 740 });
   await page.goto("/#/oferty");
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  await page.screenshot({ path: "artifacts/jobs-mobile.png", fullPage: true });
+  await page.screenshot({ path: "artifacts/notes-ink-01/jobs-mobile-320.png", fullPage: true });
 });
 
 test("application submission explains short answers and missing approval without losing input", async ({
@@ -458,14 +465,14 @@ test("legacy dark preference keeps scenario data and renders the light interface
     "Zachowaj mój profil",
   );
   await expect(page.locator("html")).not.toHaveClass(/dark/);
-  await expect(page.locator("body")).toHaveCSS("background-color", "rgb(244, 244, 240)");
+  await expect(page.locator("body")).toHaveCSS("background-color", "rgb(250, 246, 238)");
   await page.getByRole("button", { name: "Zapisz profil", exact: true }).click();
   expect(
     await page.evaluate((key) => JSON.parse(localStorage.getItem(key)!).theme, STORAGE_KEY),
   ).toBeUndefined();
 });
 
-test("Poster People offer keeps desktop conditions/actions and places them before mobile reading", async ({
+test("Notes offer keeps desktop conditions/actions and places them before mobile reading", async ({
   page,
 }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
@@ -576,34 +583,34 @@ test("desktop reset synchronizes search, category and facets with the URL", asyn
   );
 });
 
-test("canonical marketplace typography and search geometry match Poster People breakpoints", async ({
-  page,
-}) => {
+test("Notes marketplace keeps editorial hierarchy and readable job titles", async ({ page }) => {
   for (const [width, title, card] of [
-    [1280, "72px", "28px"],
-    [1100, "58px", "26px"],
-    [850, "52px", "28px"],
-    [390, "43px", "26px"],
+    [1280, "48px", "20px"],
+    [1100, "48px", "20px"],
+    [850, "44px", "20px"],
+    [390, "36px", "18px"],
   ] as const) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/#/oferty");
     await expect(page.locator(".pp-intro-copy h1")).toHaveCSS("font-size", title);
     await expect(page.locator(".pp-job-title").first()).toHaveCSS("font-size", card);
+    await page.screenshot({ path: `artifacts/notes-ink-01/listing-${width}.png`, fullPage: true });
     await expect(page.getByRole("textbox", { name: "Szukaj ofert", exact: true })).toBeVisible();
     if (width === 1280) {
       expect((await page.locator(".pp-search-form").boundingBox())!.width).toBe(1200);
-      await expect(page.locator(".pp-salary-tag").first()).toHaveCSS("font-size", "15px");
+      await expect(page.locator(".pp-salary-tag").first()).toHaveCSS("font-size", "16px");
     }
   }
   for (const [width, title, salary] of [
-    [1280, "64px", "24px"],
-    [850, "46px", "20px"],
-    [390, "47px", "25px"],
+    [1280, "28px", "24px"],
+    [850, "28px", "24px"],
+    [390, "26px", "24px"],
   ] as const) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/#/oferty/ai-product-manager");
     await expect(page.locator(".pp-offer-hero h1")).toHaveCSS("font-size", title);
     await expect(page.locator(".pp-offer-pay .pp-salary-tag")).toHaveCSS("font-size", salary);
+    await page.screenshot({ path: `artifacts/notes-ink-01/offer-${width}.png`, fullPage: true });
   }
 });
 
@@ -648,23 +655,23 @@ for (const width of [1280, 390])
     await expect(page.getByRole("textbox", { name: "Szukaj ofert", exact: true })).toHaveValue("");
   });
 
-test("homepage surfaces and marketplace action type roles match the shared reference", async ({
+test("Notes homepage surfaces and marketplace actions share the host foundation", async ({
   page,
 }) => {
   await page.goto("/#/");
   const cards = page.locator("main article.prototype-panel");
   await expect(cards).toHaveCount(3);
   for (const card of await cards.all()) {
-    await expect(card).toHaveCSS("border-radius", "24px");
-    await expect(card).toHaveCSS("box-shadow", /rgb\(24, 24, 24\).*1px inset/);
+    await expect(card).toHaveCSS("border-radius", "10px");
+    await expect(card).toHaveCSS("box-shadow", /rgb\(23, 20, 17\).*1px inset/);
   }
   for (const [width, searchSize, offerSize, payLine] of [
     [1280, "14px", "14px", "34.8px"],
-    [1100, "14px", "13px", "31.9px"],
-    [850, "12px", "12px", "29px"],
-    [700, "12px", "14px", "36.25px"],
-    [600, "12px", "14px", "33.75px"],
-    [390, "12px", "14px", "33.75px"],
+    [1100, "14px", "13px", "34.8px"],
+    [850, "12px", "12px", "34.8px"],
+    [700, "12px", "14px", "34.8px"],
+    [600, "14px", "14px", "34.8px"],
+    [390, "14px", "14px", "34.8px"],
   ] as const) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto("/#/oferty");

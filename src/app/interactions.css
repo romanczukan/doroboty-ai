@@ -33,11 +33,11 @@
 
 /* Selected navigation stays visibly selected during hover. */
 :where(.nav-active, .pp-category-tab.pp-selected, .pp-view-link[aria-current="page"]) {
-  --control-hover-bg: var(--gui-neutral-9);
-  --control-hover-text: white;
+  --control-hover-bg: #ecd074;
+  --control-hover-text: var(--gui-text);
 }
 /* Preserve the checked checkbox treatment rather than replacing it with a quiet action. */
 [role="checkbox"][aria-checked="true"] {
-  --control-hover-bg: var(--gui-neutral-9);
-  --control-hover-text: white;
+  --control-hover-bg: #ecd074;
+  --control-hover-text: var(--gui-text);
 }

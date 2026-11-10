@@ -1,19 +1,16 @@
 # DoRoboty.ai — AIPH3 prototype
 
-A frontend-only job marketplace for participants to extend and test. Built with React, TypeScript and Vite, using Base UI components. The required visual direction for new and changed screens is the accepted Poster People design system.
+A frontend-only job marketplace for participants to extend and test. Built with React, TypeScript and Vite, using Base UI components. The active visual direction is the working Notes z atramentem iteration.
 
 ## Design system — start here for UI work
 
-Read [project integration instructions](docs/design-system/README.md), [host implementation rules](docs/design-system/IMPLEMENTATION.md) and [application acceptance checklist](docs/design-system/VERIFICATION.md), then [design.md](docs/design-system/agent-kit/design.md), [component API](docs/design-system/agent-kit/components/API.md) and the relevant [human documentation](docs/design-system/agent-kit/reference/index.html). The complete 67-file kit is stored under docs/design-system/agent-kit, including reusable CSS/JS, component states, listing/offer examples, screenshots, Geist Serif with license and illustration. No other chat or global skill is required.
+Start with [GUI.md](GUI.md) and the [current iteration record](docs/tasks/notes-ink-iteration-01.md). Notes z atramentem uses warm paper, brown editorial headings, ink actions, yellow selections and a sketch lumberjack. This published working iteration includes [designer documentation v1](docs/design-system/notes-z-atramentem/README.md) and the [updated portable skill](docs/design-system/skills/notes-z-atramentem/SKILL.md). The documentation records open decisions for subsequent iterations.
 
-```sh
-npm run design-system:check
-npm run design-system:dev
-```
+Use the shared host foundation in tokens.css, existing React/Base UI components and local src/assets/notes-ink artwork. Preserve application behavior, hash routing and stored scenario data. Validate desktop/mobile, long content, focus and states; run ./scripts/verify. AGENTS.md and CLAUDE.md identify the same active direction.
 
-With Node 24, the first command verifies the preserved kit and examples; the second serves a separate local preview at http://127.0.0.1:8952/. No kit installation is needed. The main app uses port 3001 as below.
+To reuse the skill in Codex, copy `docs/design-system/skills/notes-z-atramentem/` into your personal skills directory as `notes-z-atramentem/`, preserving its references and assets. The application itself runs without installing the skill.
 
-Build UI from this system, adapting its anatomy and visual roles into the existing React/Base UI components and host tokens. Preserve application behavior and hash routing; do not replace product state with the standalone demo fixtures/controllers. The application has a host adaptation. For every UI task, compare the affected anatomy, type roles, state and keyboard behavior with the reference; passing kit checks alone does not establish visual acceptance. See the integration guide for exact reading order, assets, React mapping, responsive rules and verification. AGENTS.md and CLAUDE.md enforce the same direction.
+The original 67-file Poster People kit remains unchanged under docs/design-system/agent-kit as historical evidence. `npm run design-system:check` verifies that preserved kit; `npm run design-system:dev` previews it separately on port 8952. Neither command establishes conformity of the current Notes iteration. Existing host/API guides remain useful for behavior and component ownership.
 
 ## Run
 

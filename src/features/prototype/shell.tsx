@@ -71,6 +71,12 @@ export function Shell() {
   const person = currentPerson(state);
   const { pathname } = useLocation();
   const workspace = pathname.startsWith("/app") && person;
+  const shadedCanvas =
+    pathname === "/metodologia" ||
+    pathname.startsWith("/auth/") ||
+    pathname === "/app" ||
+    pathname.startsWith("/app/") ||
+    pathname.startsWith("/aplikuj/");
   const [menuAt, setMenuAt] = useState<string | null>(null);
   const main = useRef<HTMLElement>(null);
   const lastPath = useRef(pathname);
@@ -111,7 +117,12 @@ export function Shell() {
     </>
   );
   return (
-    <div className="min-h-dvh bg-background text-foreground">
+    <div
+      className={cn(
+        "min-h-dvh bg-background text-foreground",
+        shadedCanvas && "notes-shaded-canvas",
+      )}
+    >
       <a
         href="#main"
         className="skip-link"

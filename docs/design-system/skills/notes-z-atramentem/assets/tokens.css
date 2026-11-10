@@ -1,0 +1,62 @@
+/* Notes z atramentem — current iteration, 2026-11-10.
+   Optional starting point: merge roles into the project's existing tokens.
+   Keep one font registration when the project already bundles IBM Plex Serif. */
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./fonts/IBMPlexSerif-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./fonts/IBMPlexSerif-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./fonts/IBMPlexSerif-SemiBold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("./fonts/IBMPlexSerif-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+:root {
+  --ink-notes-paper: #faf6ee;
+  --ink-notes-card: #fffdf8;
+  --ink-notes-shaded: #e8ddce;
+  --ink-notes-hero: var(--ink-notes-shaded);
+  --ink-notes-ink: #171411;
+  --ink-notes-brown: #71472e;
+  --ink-notes-yellow: #f5cf49;
+  --ink-notes-muted: #665a50;
+  --ink-notes-line: #c5bdb1;
+  --ink-notes-tag: #f2ede4;
+  --ink-notes-font-brand: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --ink-notes-font-editorial: var(--ink-notes-font-brand);
+  --ink-notes-font-ui: var(--ink-notes-font-brand);
+  --ink-notes-font-data: var(--ink-notes-font-brand);
+  --ink-notes-radius-panel: 16px;
+  --ink-notes-radius-card: 10px;
+  --ink-notes-radius-control: 8px;
+  --ink-notes-radius-tag: 5px;
+  --ink-notes-border-strong: 1px solid var(--ink-notes-ink);
+  --ink-notes-border-card: 1px solid var(--ink-notes-ink);
+  --ink-notes-border-subtle: 1px solid var(--ink-notes-line);
+  --ink-notes-shadow-brand: none;
+  --ink-notes-space-1: 4px;
+  --ink-notes-space-2: 8px;
+  --ink-notes-space-3: 12px;
+  --ink-notes-space-4: 16px;
+  --ink-notes-space-6: 24px;
+  --ink-notes-space-8: 32px;
+  --ink-notes-space-12: 48px;
+}

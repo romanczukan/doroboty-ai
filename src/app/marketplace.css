@@ -2,15 +2,12 @@
 @import "./marketplace-listing.css";
 @import "./marketplace-offer.css";
 
-/* React/Base UI integration; retain reference geometry without importing its reset/controllers. */
+/* React/Base UI integration for Notes z atramentem. */
 .pp-container {
   width: min(1280px, calc(100% - 80px));
   margin-inline: auto;
 }
-.pp-intro-copy h1,
-.pp-job-title,
-.pp-offer-hero h1,
-.pp-results-title h2 {
+.pp-intro-copy h1 {
   font-family: var(--pp-font-heading);
   font-weight: 400;
 }
@@ -23,7 +20,7 @@
 }
 .pp-search-submit {
   border: 1px solid var(--pp-ink);
-  border-radius: 18px;
+  border-radius: var(--gui-radius-s);
   background: var(--pp-action);
   font-size: 14px;
   font-weight: 600;
@@ -44,13 +41,13 @@
   border-radius: 10px;
 }
 .pp-view-link[aria-current="page"] {
-  background: var(--pp-ink);
-  color: white;
+  background: var(--pp-yellow);
+  color: var(--pp-ink);
 }
 .pp-filter-button {
   border: 1px solid var(--pp-ink);
-  border-radius: 18px;
-  background: white;
+  border-radius: var(--gui-radius-s);
+  background: var(--pp-surface);
 }
 .pp-filter-dialog[data-slot="dialog-content"] {
   inset: 0;
@@ -66,7 +63,7 @@
   gap: 0;
   border: 0;
   overflow: hidden;
-  background: white;
+  background: var(--pp-surface);
 }
 .pp-filter-dialog .pp-dialog-heading {
   flex-shrink: 0;
@@ -93,7 +90,7 @@
   width: 43px;
   height: 43px;
   border: 1px solid var(--pp-ink);
-  border-radius: 18px;
+  border-radius: var(--gui-radius-s);
   background: var(--pp-paper);
   font-size: 17px;
 }
@@ -108,7 +105,7 @@
   width: 60px;
   height: 60px;
   border: 1px solid var(--pp-ink);
-  border-radius: 18px;
+  border-radius: var(--gui-radius-s);
   background: var(--pp-fact);
 }
 .pp-offer-identity .pp-icon {
@@ -127,7 +124,7 @@
 .pp-offer-pay .pp-salary-tag {
   font-size: 24px;
   line-height: 1.45;
-  padding: 8px 13px;
+  padding: 0;
 }
 .pp-offer-actions > a,
 .pp-offer-actions > button {
@@ -185,7 +182,7 @@
     height: 38px;
   }
   .pp-offer-pay .pp-salary-tag {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 @media (max-width: 850px) {
@@ -212,7 +209,7 @@
     margin-bottom: 76px;
   }
   .pp-offer-pay .pp-salary-tag {
-    font-size: 20px;
+    font-size: 24px;
   }
   .pp-offer-section [data-job-description] h3 {
     font-size: 26px;
@@ -224,7 +221,7 @@
     font-size: 14px;
   }
   .pp-offer-pay .pp-salary-tag {
-    font-size: 25px;
+    font-size: 24px;
     line-height: 1.45;
   }
   .pp-offer-identity > [data-company-logo] {
@@ -238,7 +235,7 @@
 }
 @media (max-width: 600px) {
   .pp-offer-pay .pp-salary-tag {
-    line-height: 1.35;
+    line-height: 1.45;
   }
   .pp-container {
     width: calc(100% - 36px);
@@ -252,7 +249,7 @@
   .pp-search-submit {
     min-height: 42px;
     height: 42px;
-    font-size: 12px;
+    font-size: 14px;
     padding: 8px 12px;
     gap: 6px;
   }
@@ -270,12 +267,12 @@
   }
 }
 .pp-page-button[aria-current="page"] {
-  background: var(--pp-ink);
-  color: white;
+  background: var(--pp-yellow);
+  color: var(--pp-ink);
 }
 @media (max-width: 360px) {
   header a[aria-label="DoRoboty.ai — strona główna"] {
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: -1px;
   }
 }
@@ -300,4 +297,59 @@
 /* Host actions are React links/buttons rather than the reference .button siblings. */
 .pp-offer-actions > :is(a, button) + :is(a, button) {
   margin-top: 10px;
+}
+
+.pp-search-submit {
+  color: var(--primary-foreground);
+  --control-hover-text: var(--primary-foreground);
+}
+.pp-job-title,
+.pp-offer-hero h1 {
+  font-family: var(--pp-font);
+  font-weight: 700;
+  color: var(--pp-ink);
+}
+.pp-job-title {
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: -0.3px;
+}
+.pp-offer-hero h1 {
+  font-size: 28px;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+}
+.pp-job-side {
+  text-align: right;
+}
+.pp-job-side .pp-detail-button {
+  justify-content: flex-end;
+}
+.pp-job-side .pp-salary-tag {
+  font-size: 16px;
+}
+.pp-employer-copy .notes-employer-sketch {
+  width: 64px;
+  height: 76px;
+}
+@media (max-width: 600px) {
+  .pp-job-title {
+    font-size: 18px;
+  }
+  .pp-offer-hero h1 {
+    font-size: 26px;
+  }
+  .pp-job-side {
+    text-align: left;
+  }
+  .pp-job-side {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+  .pp-job-side .pp-detail-button {
+    justify-self: start;
+  }
+  .pp-job-side .pp-salary-tag {
+    font-size: 16px;
+  }
 }

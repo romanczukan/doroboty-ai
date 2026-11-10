@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { Link, Navigate, useNavigate, useParams, useSearchParams } from "react-router";
-import { CheckCircle2, FileText } from "lucide-react";
+import { CheckCircle2, FileText, Search } from "lucide-react";
 import { ConfettiBurst, type ConfettiOrigin } from "@/components/confetti-burst";
 import { BackLink } from "@/components/back-link";
 import { Button, buttonVariants } from "@/components/ui/button";
@@ -431,7 +431,14 @@ export function ApplicationsPage({ employer = false }: { employer?: boolean }) {
         </Notice>
       )}
       <Field label={employer ? "Szukaj kandydata lub oferty" : "Szukaj oferty"}>
-        <Input value={query} onChange={(e) => setQuery(e.target.value)} />
+        <span className="search-field application-search">
+          <Search aria-hidden="true" focusable="false" className="pointer-events-none size-4" />
+          <Input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={employer ? "Imię, nazwisko lub stanowisko…" : "Wpisz nazwę stanowiska…"}
+          />
+        </span>
       </Field>
       <div className="mt-6 space-y-4">
         {applications.length ? (

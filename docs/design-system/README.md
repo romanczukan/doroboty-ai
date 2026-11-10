@@ -1,6 +1,10 @@
-# DoRoboty.ai design system — project instructions
+# Historical Poster People design-system integration
 
-**Poster People v1.0.0 is the required visual reference for new and changed screens.** It is the accepted rounded, illustrated listing/offer system with Geist Serif headings. Use this directory before choosing page composition, typography, color or component treatment. The previous theme guidance has been removed at Wojtek's request.
+**Superseded visual direction:** the user requested Notes z atramentem on 2026-11-10. Follow [the active GUI entry](../../GUI.md) and [iteration record](../tasks/notes-ink-iteration-01.md). This document and its unchanged agent kit describe the historical Poster People integration. Behavioral/API guidance remains useful; old visual values do not govern the current iteration.
+
+The current designer documentation is [Notes z atramentem — v1 for review](notes-z-atramentem/index.html), also available as [full Markdown](notes-z-atramentem/components.md). It documents the working iteration, visual evidence, annotations and open decisions; it is not a new agent kit or an approved release. The [updated reusable skill](skills/notes-z-atramentem/SKILL.md) is also bundled for use outside this application.
+
+**Historical instructions below:** Poster People v1.0.0 was the reference for new and changed screens. It is the accepted rounded, illustrated listing/offer system with Geist Serif headings. Use this directory before choosing page composition, typography, color or component treatment. The previous theme guidance has been removed at Wojtek's request.
 
 This directory contains the complete immutable 67-file v1 agent kit and the receiving project's active integration guidance. The React application now has a host adaptation, mapped in [IMPLEMENTATION.md](IMPLEMENTATION.md). Treat current code as implementation to verify, not a second visual authority or proof of full acceptance. Apply the reference within the user's task scope; installing or updating guidance alone does not initiate a redesign.
 

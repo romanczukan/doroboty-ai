@@ -6,7 +6,7 @@
   margin: 30px 0 34px;
 }
 .application-header h1 {
-  font-size: 64px;
+  font-size: 48px;
   line-height: 1.04;
   letter-spacing: -2px;
 }
@@ -230,7 +230,7 @@
 }
 @media (max-width: 1100px) {
   .application-header h1 {
-    font-size: 54px;
+    font-size: 44px;
   }
   .application-layout {
     gap: 24px;
@@ -248,7 +248,7 @@
     position: static;
   }
   .application-header h1 {
-    font-size: 47px;
+    font-size: 40px;
   }
 }
 @media (max-width: 600px) {
@@ -259,7 +259,7 @@
     margin-block: 24px 28px;
   }
   .application-header h1 {
-    font-size: 43px;
+    font-size: 36px;
     line-height: 1.06;
     letter-spacing: -1.5px;
   }
@@ -296,6 +296,6 @@
   min-width: 161px;
 }
 .application-actions .application-send:disabled {
-  background: var(--gui-color-1);
-  color: var(--gui-text);
+  background: var(--primary);
+  color: var(--primary-foreground);
 }

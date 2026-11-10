@@ -1,6 +1,6 @@
 # Architecture
 
-One React/TypeScript application is built by Vite into static files. HashRouter renders routes under /#/; route parameters created in the browser require no hosting rewrites. The running app currently uses local CSS tokens, Timeless font and Base UI primitives. New and changed UI must follow the accepted Poster People [design system](design-system/README.md), adapted into the existing stack; installing its reference did not convert runtime styles. There is no server data/API layer.
+One React/TypeScript application is built by Vite into static files. HashRouter renders routes under /#/; route parameters created in the browser require no hosting rewrites. The running app currently uses local CSS tokens, locally bundled IBM Plex Serif across headings, body, jobs, data and controls and Base UI primitives. New and changed UI follows the working Notes z atramentem direction in [GUI.md](../GUI.md). The earlier Poster People kit remains historical reference. There is no server data/API layer.
 
 ## Data flow
 
