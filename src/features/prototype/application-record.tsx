@@ -4,9 +4,9 @@ import { ProcessTimeline } from "@/components/process-timeline";
 import { RecordSheet } from "@/components/record-sheet";
 import { CvAttachment } from "./cv-attachment";
 import { MatchScore } from "./match-score";
-import { stageLabels, type Application, type Stage } from "./model";
+import { stageLabels, type Application } from "./model";
+import type { ApplicationHistoryItem } from "./application-history";
 
-type RecordEvent = { stage: Stage; at: string; note?: string };
 const dateFormat = new Intl.DateTimeFormat("pl-PL", {
   dateStyle: "medium",
   timeStyle: "short",
@@ -21,6 +21,7 @@ export function ApplicationRecord({
   statusRef,
   children,
   footer,
+  nextSteps,
 }: {
   application: Pick<
     Application,
@@ -28,10 +29,11 @@ export function ApplicationRecord({
   >;
   companyName: string;
   audience: "candidate" | "employer";
-  history: RecordEvent[];
+  history: ApplicationHistoryItem[];
   statusRef?: Ref<HTMLSpanElement>;
   children?: ReactNode;
   footer?: ReactNode;
+  nextSteps: ReactNode;
 }) {
   const candidate = audience === "candidate";
   const title = candidate ? application.jobTitle : application.candidateName;
@@ -64,6 +66,7 @@ export function ApplicationRecord({
           )}
         </div>
       </header>
+      {nextSteps}
       <div className="recruiting-layout">
         <RecordSheet
           label={candidate ? "Twoja wysłana aplikacja" : "Materiały kandydata"}
@@ -103,10 +106,22 @@ export function ApplicationRecord({
             <h2 id="process-heading">Historia procesu</h2>
             <ProcessTimeline
               items={history.map((event, index) => ({
-                id: `${index}-${event.at}`,
-                title: stageLabels[event.stage],
+                id: `${index}-${event.id}`,
+                title: event.title,
                 dateTime: event.at,
-                content: event.note || undefined,
+                content:
+                  event.details || event.note || event.publicComment ? (
+                    <>
+                      {event.details && <p>{event.details}</p>}
+                      {event.note && <p>{event.note}</p>}
+                      {event.publicComment && (
+                        <p>
+                          <span className="record-caption">Komentarz dla kandydata: </span>
+                          {event.publicComment}
+                        </p>
+                      )}
+                    </>
+                  ) : undefined,
               }))}
             />
           </section>
