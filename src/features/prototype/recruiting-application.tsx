@@ -4,10 +4,13 @@ import { Textarea } from "@/components/ui/textarea";
 import { ApplicationRecord } from "./application-record";
 import { nextStages, stageLabels, type Application } from "./model";
 import { usePrototype } from "./store";
+import { applicationHistory } from "./application-history";
+import { NextStepCard } from "./next-step-card";
 
 export function RecruitingApplication({ application }: { application: Application }) {
   const { state, run } = usePrototype();
   const [note, setNote] = useState("");
+  const [publicComment, setPublicComment] = useState("");
   const [announcement, setAnnouncement] = useState("");
   const statusRef = useRef<HTMLSpanElement>(null);
   const pendingFocus = useRef(false);
@@ -27,7 +30,14 @@ export function RecruitingApplication({ application }: { application: Applicatio
         application={application}
         companyName={company?.name ?? ""}
         audience="employer"
-        history={application.events}
+        history={applicationHistory(application, "employer")}
+        nextSteps={
+          <NextStepCard
+            key={`${application.id}-${application.stage}`}
+            application={application}
+            editable
+          />
+        }
         statusRef={statusRef}
         footer={
           availableStages.length > 0 ? (
@@ -39,8 +49,17 @@ export function RecruitingApplication({ application }: { application: Applicatio
                     key={stage}
                     variant={stage === "rejected" ? "outline" : "default"}
                     onClick={() => {
-                      if (run({ type: "stage", applicationId: application.id, stage, note })) {
+                      if (
+                        run({
+                          type: "stage",
+                          applicationId: application.id,
+                          stage,
+                          note,
+                          publicComment,
+                        })
+                      ) {
                         setNote("");
+                        setPublicComment("");
                         setAnnouncement(`Zapisano etap: ${stageLabels[stage]}.`);
                         pendingFocus.current = true;
                       }
@@ -75,6 +94,22 @@ export function RecruitingApplication({ application }: { application: Applicatio
               value={note}
               onChange={(event) => setNote(event.target.value)}
               placeholder="Co warto sprawdzić w rozmowie?"
+            />
+            <h3 className="stage-comment-heading">
+              <label htmlFor="stage-public-comment">Komentarz dla kandydata (opcjonalnie)</label>
+            </h3>
+            <p className="record-caption" id="stage-public-comment-hint">
+              Widoczny dla kandydata po zmianie etapu. Notatka rekrutacyjna powyżej pozostaje
+              prywatna.
+            </p>
+            <Textarea
+              id="stage-public-comment"
+              aria-describedby="stage-public-comment-hint"
+              maxLength={2000}
+              rows={3}
+              value={publicComment}
+              onChange={(event) => setPublicComment(event.target.value)}
+              placeholder="Co chcesz przekazać kandydatowi przy zmianie etapu?"
             />
           </>
         ) : null}

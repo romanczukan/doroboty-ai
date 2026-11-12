@@ -2,6 +2,14 @@ import { z } from "zod";
 import marketplace from "./data/marketplace.json" with { type: "json" };
 import people from "./data/people.json" with { type: "json" };
 import type { JobWithCompany } from "@/features/jobs/types";
+import {
+  nextStepSchema,
+  nextStepInputSchema,
+  nextStepUpdateSchema,
+  publicCommentSchema,
+  sameNextStep,
+  type NextStep,
+} from "./next-steps";
 
 const id = z
   .string()
@@ -118,8 +126,17 @@ const applicationSchema = z.object({
   score: z.number().int().min(0).max(100),
   summary: text,
   stage: z.enum(stages),
+  nextStep: nextStepSchema.nullable().default(null),
+  nextStepUpdates: z.array(nextStepUpdateSchema).max(300).default([]),
   events: z
-    .array(z.object({ stage: z.enum(stages), at: z.iso.datetime(), note: text }))
+    .array(
+      z.object({
+        stage: z.enum(stages),
+        at: z.iso.datetime(),
+        note: text,
+        publicComment: publicCommentSchema.optional(),
+      }),
+    )
     .min(1)
     .max(30),
 });
@@ -172,6 +189,21 @@ export const stateSchema = z
       keys.add(key);
       if (a.events[0]?.stage !== "submitted" || a.events.at(-1)?.stage !== a.stage)
         problem("Invalid application history");
+      if (["withdrawn", "rejected", "hired"].includes(a.stage) && a.nextStep)
+        problem("Terminal application has an active next step");
+      let previousStep: NextStep | null = null;
+      let previousAt = a.events[0]?.at ?? "";
+      for (const update of a.nextStepUpdates) {
+        if (update.at < previousAt || !sameNextStep(update.before, previousStep))
+          problem("Invalid next step history");
+        if ((update.reason === "updated") !== (update.after !== null))
+          problem("Invalid next step update");
+        if (update.reason !== "updated" && update.before === null)
+          problem("Cannot close an absent next step");
+        previousStep = update.after;
+        previousAt = update.at;
+      }
+      if (!sameNextStep(a.nextStep, previousStep)) problem("Next step differs from history");
       for (let i = 1; i < a.events.length; i++) {
         const before = a.events[i - 1];
         const after = a.events[i];
@@ -210,7 +242,8 @@ export type Action =
       answer: string;
       consent: boolean;
     }
-  | { type: "stage"; applicationId: string; stage: Stage; note: string }
+  | { type: "stage"; applicationId: string; stage: Stage; note: string; publicComment?: string }
+  | { type: "next_step"; applicationId: string; step: NextStep; comment: string }
   | { type: "withdraw"; applicationId: string }
   | { type: "publish"; job: z.infer<typeof jobSchema> }
   | { type: "company"; name: string; description: string };
@@ -242,6 +275,8 @@ export function initialState(): State {
     score: bob.exampleScore,
     summary: bob.exampleSummary,
     stage: "submitted",
+    nextStep: null,
+    nextStepUpdates: [],
     events: [{ stage: "submitted", at: "2026-11-02T09:00:00.000Z", note: "" }],
   });
   return stateSchema.parse(state);
@@ -317,6 +352,22 @@ export function transition(
       }),
     );
     s.drafts = s.drafts.filter((x) => !(x.candidateId === p.id && x.jobId === job.id));
+  } else if (action.type === "next_step") {
+    const p = employer();
+    const application = s.applications.find((x) => x.id === action.applicationId);
+    if (!application || application.companyId !== p.companyId)
+      return fail("Nie można zmienić ustaleń tej aplikacji.");
+    if (["withdrawn", "rejected", "hired"].includes(application.stage))
+      fail("Ten proces został zakończony.");
+    const { step, comment } = nextStepInputSchema.parse(action);
+    application.nextStepUpdates.push({
+      at: now,
+      before: application.nextStep,
+      after: step,
+      reason: "updated",
+      comment,
+    });
+    application.nextStep = step;
   } else if (action.type === "stage" || action.type === "withdraw") {
     const application = s.applications.find((x) => x.id === action.applicationId);
     if (!application) return fail("Nie znaleziono aplikacji.");
@@ -334,7 +385,29 @@ export function transition(
         fail("Ta zmiana etapu nie jest dostępna.");
     }
     application.stage = stage;
-    application.events.push({ stage, at: now, note: action.type === "stage" ? action.note : "" });
+    application.events.push({
+      stage,
+      at: now,
+      note: action.type === "stage" ? action.note : "",
+      ...(action.type === "stage"
+        ? { publicComment: publicCommentSchema.parse(action.publicComment ?? "") }
+        : {}),
+    });
+    const terminal = ["withdrawn", "rejected", "hired"].includes(stage);
+    if (
+      application.nextStep &&
+      (terminal ||
+        (stage === "first_conversation_held" && application.nextStep.kind === "interview"))
+    ) {
+      application.nextStepUpdates.push({
+        at: now,
+        before: application.nextStep,
+        after: null,
+        reason: terminal ? "closed" : "completed",
+        comment: "",
+      });
+      application.nextStep = null;
+    }
   } else if (action.type === "publish") {
     const p = employer();
     const job = jobSchema.parse(action.job);

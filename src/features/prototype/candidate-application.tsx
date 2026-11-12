@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ApplicationRecord } from "./application-record";
 import type { Application } from "./model";
 import { usePrototype } from "./store";
+import { applicationHistory } from "./application-history";
+import { NextStepCard } from "./next-step-card";
 
 export function CandidateApplication({ application }: { application: Application }) {
   const { state, run } = usePrototype();
@@ -27,7 +29,8 @@ export function CandidateApplication({ application }: { application: Application
         application={application}
         companyName={company?.name ?? ""}
         audience="candidate"
-        history={application.events.map(({ stage, at }) => ({ stage, at }))}
+        history={applicationHistory(application, "candidate")}
+        nextSteps={<NextStepCard key={application.id} application={application} />}
         statusRef={statusRef}
         footer={
           terminal ? (
