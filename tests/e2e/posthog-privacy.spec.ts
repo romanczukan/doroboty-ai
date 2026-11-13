@@ -111,12 +111,33 @@ test("PostHog receives approved interactions and redacted recordings only after 
       page.waitForResponse(`${host}/array/${token}/config.js`),
       page.getByRole("button", { name: grant }).click(),
     ]);
+    const pageviews = () => first.events.filter((event) => event.event === "$pageview");
     await page.getByRole("link", { name: "Oferty", exact: true }).last().click();
     await expect(page.getByRole("heading", { name: "Oferty pracy" })).toBeVisible();
     await page.getByRole("button", { name: /^Build/ }).click();
     await page.getByRole("textbox", { name: "Szukaj ofert" }).fill(searchMarker);
     await page.getByRole("button", { name: "Szukaj", exact: true }).click();
     await expect(page.getByRole("button", { name: `Usuń filtr: ${searchMarker}` })).toBeVisible();
+
+    await page.goto(`${app}/#/oferty/ai-product-manager#warunki`);
+    await expect(page.getByRole("heading", { name: "AI Product Manager" })).toBeVisible();
+    await page.goto(`${app}/#/oferty/staff-ai-engineer`);
+    await expect(page.getByRole("heading", { name: "Staff AI Engineer" })).toBeVisible();
+    const initialPaths = ["/polityka-prywatnosci", "/oferty", "/oferty/:slug", "/oferty/:slug"];
+    await expect
+      .poll(() => pageviews().map((event) => event.properties.route))
+      .toEqual(initialPaths);
+    for (const [index, route] of initialPaths.entries()) {
+      expect(pageviews()[index].properties).toMatchObject({
+        route,
+        $pathname: route,
+        $current_url: app + route,
+      });
+      expect(pageviews()[index].properties).not.toHaveProperty("title");
+    }
+    expect(JSON.stringify(pageviews())).not.toMatch(
+      /ai-product-manager|staff-ai-engineer|#warunki/,
+    );
 
     await page.goto(`${app}/#/auth/sign-in`);
     await page.getByRole("button", { name: "Wejdź jako Anna Kowalska" }).click();
@@ -168,6 +189,15 @@ test("PostHog receives approved interactions and redacted recordings only after 
     await otherPage.getByRole("button", { name: "Wejdź jako Anna Kowalska" }).click();
     const person = () => other.events.find((event) => event.event === "person_selected");
     await expect.poll(() => person()?.properties.distinct_id).toEqual(expect.any(String));
+    await otherPage.reload();
+    await expect
+      .poll(
+        () =>
+          other.events.filter(
+            (event) => event.event === "$pageview" && event.properties.route === "/app",
+          ).length,
+      )
+      .toBe(2);
     expect(person()?.properties.distinct_id).not.toBe(
       first.events.find((event) => event.event === "person_selected")?.properties.distinct_id,
     );

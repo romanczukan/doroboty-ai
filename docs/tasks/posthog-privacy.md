@@ -29,3 +29,14 @@ Keep new workspace routes and data from the scenario blocked by default. Before 
 interaction, add a fixed `data-ph-capture-attribute-control` value to the control and check that
 it has no private content in its DOM subtree or accessible name. When adding a public surface,
 review its dynamic data and any components that render outside the route tree, such as dialogs.
+
+## Page views
+
+Measure visits to app screens after analytics consent. Send a `$pageview` for the current screen
+when consent is granted, on a full load with saved consent, and when the router pathname changes.
+Filter changes and section anchors on the same screen must not add views. Different records
+count as separate views but use the same route category in PostHog.
+
+Use that category for the event's path and build its URL from the deployment origin and the
+category. Omit raw URLs, record identifiers, search parameters and page titles. Verify both the
+event count and the outgoing properties in the browser test with intercepted PostHog requests.
