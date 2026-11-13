@@ -30,6 +30,7 @@ export function JobFiltersForm({
           {Object.entries(options).map(([value, text]) => (
             <label key={value}>
               <input
+                data-analytics-safe-checkbox
                 type="checkbox"
                 checked={filters[key] === value}
                 onChange={() => onChange(key, filters[key] === value ? "" : value)}

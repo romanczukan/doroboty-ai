@@ -136,14 +136,13 @@ export function EmployerJobEditor() {
       return;
     }
     if (run({ type: "publish", job: parsed.data })) {
-      const logAttributes = {
+      const eventProperties = {
         is_new_job: !existing,
         job_category: parsed.data.category,
         job_function: parsed.data.function,
         job_remote_status: parsed.data.remoteStatus,
       };
-      posthog.capture("job_published", logAttributes);
-      posthog.logger.info("job published", logAttributes);
+      posthog.capture("job_published", eventProperties);
       navigate("/app/oferty");
     }
   }

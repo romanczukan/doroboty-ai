@@ -41,7 +41,7 @@ function LocalMap({ jobs }: { jobs: JobWithCompany[] }) {
   const locationCount = (x: JobWithCompany) =>
     located.filter((other) => locationKey(other) === locationKey(x)).length;
   return (
-    <div className="prototype-map-layout">
+    <div className="prototype-map-layout" data-analytics-private>
       <div className="prototype-map" role="region" aria-label="Mapa ofert w Polsce">
         <svg viewBox="0 0 600 520" aria-hidden="true">
           <path
@@ -156,10 +156,6 @@ export function JobsPage() {
       has_search_query: hasSearchQuery,
       has_location_filter: hasLocationFilter,
     });
-    posthog.logger.info("job search submitted", {
-      has_search_query: hasSearchQuery,
-      has_location_filter: hasLocationFilter,
-    });
     setParams(next);
   }
   const locations = [...new Set(all.flatMap((x) => x.locations))];
@@ -186,6 +182,7 @@ export function JobsPage() {
           <form
             key={`${filters.query ?? ""}:${filters.location ?? ""}`}
             className="pp-search-form"
+            data-analytics-private
             onSubmit={search}
           >
             <label className="pp-search-field">
@@ -233,6 +230,7 @@ export function JobsPage() {
             ).map(([key, label, description]) => (
               <button
                 key={key}
+                data-ph-capture-attribute-control={`listing-category-${key || "all"}`}
                 className={cn("pp-category-tab", (filters.category ?? "") === key && "pp-selected")}
                 aria-pressed={(filters.category ?? "") === key}
                 onClick={() => change("category", key)}
@@ -271,6 +269,7 @@ export function JobsPage() {
               <span className="pp-sort-label">Najnowsze</span>
               <Link
                 className="pp-view-link"
+                data-ph-capture-attribute-control="listing-view-list"
                 aria-current={view === "list" ? "page" : undefined}
                 to={jobListingHref(filters)}
               >
@@ -278,6 +277,7 @@ export function JobsPage() {
               </Link>
               <Link
                 className="pp-view-link"
+                data-ph-capture-attribute-control="listing-view-map"
                 aria-current={view === "map" ? "page" : undefined}
                 to={jobListingHref(filters, 1, "map")}
               >
@@ -286,7 +286,7 @@ export function JobsPage() {
             </div>
           </div>
           {Object.entries(filters).some(([k, v]) => k !== "page" && v) && (
-            <div className="pp-active-filters">
+            <div className="pp-active-filters" data-analytics-private>
               {Object.entries(filters)
                 .filter(([k, v]) => k !== "page" && v)
                 .map(([key, value]) => (
@@ -313,12 +313,14 @@ export function JobsPage() {
               <LocalMap jobs={jobs} />
             ) : (
               <>
-                <div className="pp-job-list">
+                <div className="pp-job-list" data-analytics-private>
                   {pagination.items.map((job) => (
                     <JobCard key={job.id} job={job} saved={savedIds?.has(job.id)} />
                   ))}
                 </div>
-                <JobPagination pagination={pagination} filters={filters} />
+                <div data-analytics-private>
+                  <JobPagination pagination={pagination} filters={filters} />
+                </div>
               </>
             )
           ) : (

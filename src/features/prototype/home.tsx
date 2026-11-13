@@ -47,10 +47,15 @@ export default function HomePage() {
               pracy — nie dopiskiem w employer brandingu.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/oferty" className={buttonVariants({ size: "lg" })}>
+              <Link
+                data-ph-capture-attribute-control="home-jobs"
+                to="/oferty"
+                className={buttonVariants({ size: "lg" })}
+              >
                 Zobacz oferty <ArrowRight />
               </Link>
               <Link
+                data-ph-capture-attribute-control="home-methodology"
                 to="/metodologia"
                 className={cn(buttonVariants({ size: "lg", variant: "outline" }))}
               >
@@ -106,7 +111,7 @@ export default function HomePage() {
               Wszystkie oferty <ArrowRight className="size-4" />
             </Link>
           </div>
-          <div className="mt-8 pp-job-list">
+          <div className="mt-8 pp-job-list" data-analytics-private>
             {latestJobs.map((job) => (
               <JobCard key={job.id} job={job} />
             ))}

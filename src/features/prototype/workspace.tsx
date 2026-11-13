@@ -54,10 +54,7 @@ export function PersonPicker() {
               onClick={() => {
                 if (!run({ type: "select_person", id: person.id })) return;
 
-                if (state.activePersonId && state.activePersonId !== person.id) posthog.reset();
-                posthog.identify(person.id, { name: person.name, role: person.role });
                 posthog.capture("person_selected", { role: person.role });
-                posthog.logger.info("prototype profile selected", { role: person.role });
 
                 navigate(
                   person.role === "candidate"

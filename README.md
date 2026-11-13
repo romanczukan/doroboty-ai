@@ -36,3 +36,13 @@ npm run preview
 The static output is dist/. Browser checks require an already provisioned Playwright Chromium; starting the app never installs it. See [participant guide](docs/PARTICIPANT_GUIDE.md), [architecture](docs/architecture.md), [current features](FEATURES.md) and [case protocol](docs/case/CASE_PROTOCOL.md).
 
 To distribute a baseline participant package, run npm run package:participant -- /absolute/output/directory. This excludes Git history and instructor source material. Never distribute this repository’s history as a stage-safe packet.
+
+### Optional PostHog analytics
+
+Copy `.env.example` to `.env.local` and use the public PostHog project token and ingestion host
+(for an EU Cloud project, `https://eu.i.posthog.com`). Vite embeds both settings at build time.
+Keep the default participant build unconfigured. Use a separate PostHog project for preview. Enable Autocapture and
+Session Replay in that project and check the integration with synthetic data before enabling it
+in the production project.
+The participant opts in and can withdraw on `/#/polityka-prywatnosci`.
+For the privacy boundary and validation, see [the PostHog task record](docs/tasks/posthog-privacy.md).

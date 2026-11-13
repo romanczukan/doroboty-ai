@@ -4,6 +4,7 @@ import { ConfirmDialog } from "@/components/confirm-dialog";
 import { usePrototype } from "./store";
 import { serializeState, MAX_IMPORT_BYTES } from "./storage";
 import { PageTitle } from "./shell";
+import { AnalyticsPreference } from "@/features/analytics/preference";
 
 export function downloadText(name: string, text: string, type = "application/json") {
   const url = URL.createObjectURL(new Blob([text], { type }));
@@ -124,14 +125,14 @@ export function PrivacyPage() {
           ani poufnych informacji.
         </p>
         <p>
-          Profile, aplikacje i ustawienia pozostają w pamięci tej przeglądarki. Aplikacja nie wysyła
-          ich do bazy, dostawcy AI ani systemu analitycznego. Plik eksportu zawiera cały lokalny
-          scenariusz, w tym notatki.
+          Treści profili i aplikacji oraz ustawienia scenariusza pozostają w tej przeglądarce. Plik
+          eksportu zawiera cały lokalny scenariusz, w tym notatki.
         </p>
         <p>
           Możesz usunąć zmiany przyciskiem „Resetuj scenariusz” w ustawieniach lub wyczyścić dane
           witryny w przeglądarce. Hosting może prowadzić własne logi dostępu.
         </p>
+        <AnalyticsPreference />
       </div>
     </section>
   );
