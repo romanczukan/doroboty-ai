@@ -19,6 +19,7 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { currentPerson } from "./model";
 import { usePrototype } from "./store";
 import { cn } from "@/lib/utils";
+import { isReplayPublicRoute } from "@/features/analytics/posthog";
 const navigation = [
   { to: "/oferty", label: "Oferty" },
   { to: "/metodologia", label: "Metodologia" },
@@ -98,20 +99,25 @@ export function Shell() {
     <>
       <>
         {issue && (
-          <Notice>
-            {issue}{" "}
-            <Link className="underline" to="/app/settings">
-              Ustawienia danych
-            </Link>
-          </Notice>
+          <div data-analytics-private>
+            <Notice>
+              {issue}{" "}
+              <Link className="underline" to="/app/settings">
+                Ustawienia danych
+              </Link>
+            </Notice>
+          </div>
         )}
       </>
       {error && (
-        <p className="prototype-error" role="alert">
+        <p className="prototype-error" role="alert" data-analytics-private>
           {error}
         </p>
       )}
-      <div key={`${state.activePersonId}:${pathname}`}>
+      <div
+        key={`${state.activePersonId}:${pathname}`}
+        data-analytics-private={isReplayPublicRoute(pathname) ? undefined : true}
+      >
         <Outlet />
       </div>
     </>
@@ -141,6 +147,7 @@ export function Shell() {
               DoRoboty.ai
             </Link>
             <Button
+              data-ph-capture-attribute-control="workspace-menu"
               aria-label={menuAt === pathname ? "Zamknij menu" : "Otwórz menu"}
               aria-expanded={menuAt === pathname}
               aria-controls="workspace-nav"
@@ -161,7 +168,7 @@ export function Shell() {
               <BrandMark />
               DoRoboty.ai
             </Link>
-            <div className="workspace-label">
+            <div className="workspace-label" data-analytics-private>
               <span className="workspace-avatar">{person.name[0]}</span>
               <div>
                 <strong>{person.name}</strong>
@@ -171,6 +178,7 @@ export function Shell() {
             <nav id="workspace-nav" aria-label="Panel użytkownika">
               {nav.map(([to, label, Icon]) => (
                 <NavLink
+                  data-ph-capture-attribute-control={`workspace-${to}`}
                   end={to === "/app"}
                   key={to}
                   to={to}
@@ -192,6 +200,9 @@ export function Shell() {
               <Link className="nav-link" to="/oferty">
                 Wszystkie oferty
               </Link>
+              <Link className="nav-link" to="/polityka-prywatnosci">
+                Prywatność
+              </Link>
               <Link className="nav-link" to="/auth/sign-in">
                 Zmień osobę
               </Link>
@@ -206,7 +217,9 @@ export function Shell() {
                     ? "Strefa pracodawcy"
                     : "Case study"}
               </span>
-              <Link to="/auth/sign-in">{person.name}</Link>
+              <Link to="/auth/sign-in" data-analytics-private>
+                {person.name}
+              </Link>
             </div>
             <main id="main" ref={main} tabIndex={-1} className="main-content outline-none">
               {content}
@@ -228,6 +241,7 @@ export function Shell() {
               <nav aria-label="Główna nawigacja" className="flex items-center gap-2 sm:gap-5">
                 {navigation.map((item) => (
                   <Link
+                    data-ph-capture-attribute-control={`public-nav-${item.label}`}
                     key={item.to}
                     className="hidden text-sm font-medium text-muted-foreground transition-colors hover:text-foreground md:inline"
                     to={item.to}

@@ -1,5 +1,6 @@
 import { Link, useLocation, useParams, useSearchParams } from "react-router";
 import { useEffect, useRef, useState, type FormEvent } from "react";
+import { usePostHog } from "@posthog/react";
 import { ArrowUpRight, Users, MapPin, BriefcaseBusiness, Bookmark } from "lucide-react";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Search, ArrowRight, Monitor, X } from "lucide-react";
@@ -40,7 +41,7 @@ function LocalMap({ jobs }: { jobs: JobWithCompany[] }) {
   const locationCount = (x: JobWithCompany) =>
     located.filter((other) => locationKey(other) === locationKey(x)).length;
   return (
-    <div className="prototype-map-layout">
+    <div className="prototype-map-layout" data-analytics-private>
       <div className="prototype-map" role="region" aria-label="Mapa ofert w Polsce">
         <svg viewBox="0 0 600 520" aria-hidden="true">
           <path
@@ -100,6 +101,7 @@ function LocalMap({ jobs }: { jobs: JobWithCompany[] }) {
 }
 export function JobsPage() {
   const { state } = usePrototype();
+  const posthog = usePostHog();
   const person = currentPerson(state);
   const [params, setParams] = useSearchParams();
   const filters = parseJobFilters(Object.fromEntries(params));
@@ -148,6 +150,12 @@ export function JobsPage() {
       if (value) next.set(key, value);
       else next.delete(key);
     }
+    const hasSearchQuery = Boolean(String(data.get("query") ?? "").trim());
+    const hasLocationFilter = Boolean(String(data.get("location") ?? "").trim());
+    posthog.capture("job_search_submitted", {
+      has_search_query: hasSearchQuery,
+      has_location_filter: hasLocationFilter,
+    });
     setParams(next);
   }
   const locations = [...new Set(all.flatMap((x) => x.locations))];
@@ -174,6 +182,7 @@ export function JobsPage() {
           <form
             key={`${filters.query ?? ""}:${filters.location ?? ""}`}
             className="pp-search-form"
+            data-analytics-private
             onSubmit={search}
           >
             <label className="pp-search-field">
@@ -221,6 +230,7 @@ export function JobsPage() {
             ).map(([key, label, description]) => (
               <button
                 key={key}
+                data-ph-capture-attribute-control={`listing-category-${key || "all"}`}
                 className={cn("pp-category-tab", (filters.category ?? "") === key && "pp-selected")}
                 aria-pressed={(filters.category ?? "") === key}
                 onClick={() => change("category", key)}
@@ -259,6 +269,7 @@ export function JobsPage() {
               <span className="pp-sort-label">Najnowsze</span>
               <Link
                 className="pp-view-link"
+                data-ph-capture-attribute-control="listing-view-list"
                 aria-current={view === "list" ? "page" : undefined}
                 to={jobListingHref(filters)}
               >
@@ -266,6 +277,7 @@ export function JobsPage() {
               </Link>
               <Link
                 className="pp-view-link"
+                data-ph-capture-attribute-control="listing-view-map"
                 aria-current={view === "map" ? "page" : undefined}
                 to={jobListingHref(filters, 1, "map")}
               >
@@ -274,7 +286,7 @@ export function JobsPage() {
             </div>
           </div>
           {Object.entries(filters).some(([k, v]) => k !== "page" && v) && (
-            <div className="pp-active-filters">
+            <div className="pp-active-filters" data-analytics-private>
               {Object.entries(filters)
                 .filter(([k, v]) => k !== "page" && v)
                 .map(([key, value]) => (
@@ -301,12 +313,14 @@ export function JobsPage() {
               <LocalMap jobs={jobs} />
             ) : (
               <>
-                <div className="pp-job-list">
+                <div className="pp-job-list" data-analytics-private>
                   {pagination.items.map((job) => (
                     <JobCard key={job.id} job={job} saved={savedIds?.has(job.id)} />
                   ))}
                 </div>
-                <JobPagination pagination={pagination} filters={filters} />
+                <div data-analytics-private>
+                  <JobPagination pagination={pagination} filters={filters} />
+                </div>
               </>
             )
           ) : (
@@ -341,6 +355,7 @@ export function JobPage() {
     return () => cancelAnimationFrame(frame);
   }, [location.hash, location.key, slug]);
   const { state, run } = usePrototype();
+  const posthog = usePostHog();
   const person = currentPerson(state);
   const job = publishedJobs(state).find((x) => x.slug === slug);
   if (!job) return <NotFound />;
@@ -429,7 +444,14 @@ export function JobPage() {
                     variant="outline"
                     aria-label="Zapisz ofertę"
                     aria-pressed={saved}
-                    onClick={() => run({ type: "toggle_saved", jobId: job.id })}
+                    onClick={() => {
+                      if (run({ type: "toggle_saved", jobId: job.id })) {
+                        posthog.capture("job_bookmark_toggled", {
+                          is_saved: !saved,
+                          job_category: job.category,
+                        });
+                      }
+                    }}
                   >
                     <Bookmark className={cn(saved && "fill-current")} />
                     Zapisz ofertę

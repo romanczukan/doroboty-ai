@@ -1,4 +1,5 @@
 import { useLayoutEffect, useRef, useState } from "react";
+import { usePostHog } from "@posthog/react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { ApplicationRecord } from "./application-record";
@@ -9,6 +10,7 @@ import { NextStepCard } from "./next-step-card";
 
 export function RecruitingApplication({ application }: { application: Application }) {
   const { state, run } = usePrototype();
+  const posthog = usePostHog();
   const [note, setNote] = useState("");
   const [publicComment, setPublicComment] = useState("");
   const [announcement, setAnnouncement] = useState("");
@@ -58,6 +60,7 @@ export function RecruitingApplication({ application }: { application: Applicatio
                           publicComment,
                         })
                       ) {
+                        posthog.capture("application_stage_changed", { application_stage: stage });
                         setNote("");
                         setPublicComment("");
                         setAnnouncement(`Zapisano etap: ${stageLabels[stage]}.`);

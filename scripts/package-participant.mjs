@@ -32,6 +32,7 @@ const entries = [
   ".prettierrc.json",
   ".prettierignore",
   ".gitignore",
+  ".env.example",
   "tokens.css",
   "GUI.md",
   "components.json",
@@ -49,6 +50,7 @@ const entries = [
   "docs/design-system",
   "docs/PARTICIPANT_GUIDE.md",
   "docs/SECURITY.md",
+  "docs/tasks/posthog-privacy.md",
   "docs/case",
 ];
 fs.mkdirSync(target, { recursive: true });
