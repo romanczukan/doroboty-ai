@@ -1,4 +1,10 @@
-import { HashRouter, Routes, Route, Navigate } from "react-router";
+import { useEffect, useRef, useSyncExternalStore } from "react";
+import { HashRouter, Routes, Route, Navigate, useLocation } from "react-router";
+import {
+  analyticsAllowed,
+  posthog,
+  subscribeToAnalyticsPermission,
+} from "@/features/analytics/posthog";
 import { PrototypeProvider } from "./store";
 import { Shell, NotFound } from "./shell";
 import HomePage from "./home";
@@ -17,6 +23,25 @@ import {
 import { EmployerJobs, EmployerJobEditor, CompanyEditor } from "./employer";
 import { SettingsPage, PrivacyPage } from "./settings";
 import { CasePage } from "./case";
+
+function PageviewTracking() {
+  const { pathname } = useLocation();
+  const allowed = useSyncExternalStore(subscribeToAnalyticsPermission, analyticsAllowed);
+  const lastPathname = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (!allowed) {
+      lastPathname.current = null;
+      return;
+    }
+    if (pathname === lastPathname.current) return;
+    lastPathname.current = pathname;
+    posthog.capture("$pageview");
+  }, [allowed, pathname]);
+
+  return null;
+}
+
 function AppRoutes() {
   return (
     <Routes>
@@ -151,6 +176,7 @@ export function App() {
   return (
     <PrototypeProvider>
       <HashRouter>
+        <PageviewTracking />
         <AppRoutes />
       </HashRouter>
     </PrototypeProvider>

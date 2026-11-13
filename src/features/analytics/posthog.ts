@@ -107,7 +107,14 @@ const config = {
         delete properties[key];
       }
     }
-    properties.route = routeName();
+    const route = routeName();
+    properties.route = route;
+    if (event.event === "$pageview") {
+      const path = route === "other" ? "/other" : route;
+      properties.$pathname = path;
+      properties.$current_url = window.location.origin + path;
+      delete properties.title;
+    }
     return event;
   },
 } satisfies Partial<PostHogConfig>;
