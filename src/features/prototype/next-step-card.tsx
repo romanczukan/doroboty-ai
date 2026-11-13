@@ -1,4 +1,5 @@
 import { useId, useLayoutEffect, useRef, useState } from "react";
+import { usePostHog } from "@posthog/react";
 import { CalendarDays, CircleAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { FormSelect } from "@/components/ui/form-select";
@@ -29,6 +30,7 @@ export function NextStepCard({
   editable?: boolean;
 }) {
   const { run } = usePrototype();
+  const posthog = usePostHog();
   const id = useId();
   const [editing, setEditing] = useState(false);
   const [kind, setKind] = useState("");
@@ -202,6 +204,10 @@ export function NextStepCard({
                 return;
               }
               if (run({ type: "next_step", applicationId: application.id, ...input.data })) {
+                posthog.capture("application_next_step_saved", {
+                  next_step_kind: input.data.step.kind,
+                  has_scheduled_date: Boolean(input.data.step.scheduledFor),
+                });
                 focusAfter.current = "heading";
                 setEditing(false);
                 setAnnouncement(
